@@ -48,8 +48,8 @@
 				<p> Choose your goal, set your stake, get going! </p>
 				<p> I want to .... <p>
 					<ul>
-						<li> Exercise 3 times this week </li> 
-						<li> Wake up early </li>
+						<li> <input type="button" name="exercise" id="exercise" value="Exercise 3 times this week">  </li> 
+						<li> <input type="button" name="exercise" id="exercise" value="Wake up early "></li>
 					</ul>
                  <div class="datepickerContainer">
                             <label for="goal_time">for</label>
