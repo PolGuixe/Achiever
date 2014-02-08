@@ -77,15 +77,15 @@ textarea {
    ========================================================================== */
 
 
-.intro{
+/*.intro{
 	//background: url("../img/wall.jpg") center no-repeat;
 	background-color:#17EDB2;
-}
+}*/
 
-.intro .imgholder{
+/*.intro .imgholder{
 	width: 350px;
 	margin: 0 auto;
-}
+}*/
 
 .imgholder img{
 	width: 100%;
@@ -127,13 +127,15 @@ textarea {
 	//background: url("../img/5edit.jpg") center no-repeat;
 }
 
-.panel{
+.intro{
 	width: 90%;
-	padding: 5%;
-	min-height: 800px;
+	padding-right: 5%;
+	padding-left: 5%;
+	height: 100%;
 	background-attachment: fixed;
 	background-size: cover;
 	display: block;
+	background-color:#17EDB2;
 }
 
 
@@ -162,7 +164,7 @@ a:active {
 	border:none;
 	margin:0.5em;
 	background-color:#CC5DE8;
-	color:white;
+	color:white;	
 };
 
 /* ==========================================================================

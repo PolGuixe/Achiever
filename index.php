@@ -27,7 +27,7 @@
         <title>Achiever</title>
     </head>
     <body>
-		<div class="panel intro">
+		<div class="intro">
 			<!--<div class="imgholder">-->
 				<!-- <img src="img/logo.png">  -->
 				<div style="width: 100%; clear: both; text-align: center">
@@ -56,17 +56,12 @@
 		</div>
 	</div>
 
-	<div id="text" class="text center">
+	
 		<div class="logFace">
 			<span class="login">Login</span>
 				Login with Facebook
    				<input type="button" name="fb_login" id="fb_login" value="Login"> 
 		</div>
-			
-		</div>
-
-
-		<div id="text" class="text center">
 		<div class="setStake">
 			<span class="artistname">Set your stake</span>
 			<div class="content">
@@ -82,25 +77,19 @@
 
 			</div>
 		</div>
-		</div>
-
-
-<div id="text" class="text center">
 				<div class="chooseReferee">
-			<span class="artistname">Track your progress</span>
-			<div class="artistdesc">
+			
+			
 				
-			<span class="artistname">Nominate your referee</span>
-			<div class="artistdesc">
-				Select friend from facebook...
-
-			</div>
-		</div>
+			<span class="referee">Nominate your referee</span>
+			
+				Select friend from facebook..
+		
 	</div>
 
-<div id="text" class="text center">
-				<div class="congrats">
-			<h1>Congratulations!</h1>
+
+<div class="congrats">
+			Congratulations!
 
 <br/>
 			You have set your goal<br/>
@@ -109,7 +98,7 @@
 			<br/>
 
 </div>
-		</div>
+		
 
 
 <div id="fb-root"></div>
