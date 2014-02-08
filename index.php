@@ -14,8 +14,13 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-
+		 <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"/>
+         	
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="js/jquery.datetimepicker.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        
         <title>Achiever</title>
     </head>
     <body>
@@ -38,6 +43,11 @@
 						<li> Exercise 3 times this week </li> 
 						<li> Wake up early </li>
 					</ul>
+                 <div class="datepickerContainer">
+                            <label for="dateTime">for</label>
+                            <input type="text" id="goal_time" name="goal_time">
+                 </div><!--datepickerContainer-->  
+                    
 			</div>
 		</div>
 		<div class="logFace">
@@ -111,4 +121,11 @@
 
 
     </body>
+    
+    <script>
+	$(function() {
+		$('#goal_time').datetimepicker();
+		});
+	</script>
 </html>
+
