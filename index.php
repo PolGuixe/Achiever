@@ -28,14 +28,14 @@
     </head>
     <body>
 		<div class="panel intro">
-			<div class="imgholder">
+			<!--<div class="imgholder">-->
 				<!-- <img src="img/logo.png">  -->
 				<div style="width: 100%; clear: both; text-align: center">
 					Achieve your goals<br/>
 					Be who you want to be<br/>
 					<br> Making the latest discoveries in behavioural science work for you </br> 
 				</div>
-			</div>
+			<!--</div>-->
 		</div>
 		<div class="chooseGoal">
 		<span class="artistname">It is as easy as 1,2,3...</span>
@@ -58,11 +58,9 @@
 
 	<div id="text" class="text center">
 		<div class="logFace">
-			<span class="artistname">Login</span>
-			<div class="artistdesc">
+			<span class="login">Login</span>
 				Login with Facebook
    				<input type="button" name="fb_login" id="fb_login" value="Login"> 
-			</div>
 		</div>
 			
 		</div>
