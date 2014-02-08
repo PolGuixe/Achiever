@@ -75,7 +75,7 @@
 		<div id="text" class="text center">
 		<div class="setStake">
 			<span class="artistname">Set your stake</span>
-			<div class="artistdesc">
+			<div class="content">
 				<p> <h1> I stake ...</h1>  </p>
 				<p>
 				<ul> 
@@ -91,7 +91,7 @@
 
 <div id="text" class="text center">
 				<div class="chooseReferee">
-			<span class="artistname">AliMog</span>
+			<span class="artistname">Track your progress</span>
 			<div class="artistdesc">
 				
 			<span class="artistname">Nominate your referee</span>
