@@ -18,8 +18,9 @@
          	
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="js/jquery.datetimepicker.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>-->
         
         <script src="js/main.js"></script>
         
@@ -51,7 +52,7 @@
 						<li> Wake up early </li>
 					</ul>
                  <div class="datepickerContainer">
-                            <label for="dateTime">for</label>
+                            <label for="goal_time">for</label>
                             <input type="text" id="goal_time" name="goal_time">
                  </div><!--datepickerContainer-->  
                     
@@ -64,10 +65,7 @@
 			<span class="artistname">Login</span>
 			<div class="artistdesc">
 				Login with Facebook
-   
-   <input type="button" name="fb_login" id="fb_login" value="Login"> 
-
-				
+   				<input type="button" name="fb_login" id="fb_login" value="Login"> 
 			</div>
 		</div>
 			
@@ -142,7 +140,7 @@
     </body>
     
     <script>
-	$(function() {
+	$(document).ready(function()  {
 		$('#goal_time').datetimepicker();
 		});
 	</script>
