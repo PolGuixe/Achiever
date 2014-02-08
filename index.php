@@ -138,11 +138,5 @@
 
 
     </body>
-    
-    <script>
-	$(document).ready(function()  {
-		$('#goal_time').datetimepicker();
-		});
-	</script>
 </html>
 
