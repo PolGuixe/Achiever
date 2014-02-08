@@ -138,7 +138,8 @@ textarea {
 
 
 .content {
-      margin-right: auto;
+    width:700px;
+	margin-right: auto;
     margin-left: auto;
     
 
