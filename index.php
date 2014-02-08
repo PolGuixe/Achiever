@@ -21,7 +21,7 @@
     <body>
 		<div class="panel intro">
 			<div class="imgholder">
-				<img src="img/logo.png">
+				<!-- <img src="img/logo.png">  -->
 				<div style="width: 100%; clear: both; text-align: center">
 					Achieve your goals<br/>
 					Be who you want to be<br/>
@@ -30,8 +30,13 @@
 			</div>
 		</div>
 		<div class="chooseGoal">
+
+  
+
+
 			<span class="artistname">It is as easy as 1,2,3...</span>
-			<div class="artistdesc">
+			<div id="text" class="text center">
+    <div class="container" >
 				<p> Choose your goal, set your stake, get going! </p>
 				<p> I want to .... <p>
 					<ul>
@@ -40,6 +45,9 @@
 					</ul>
 			</div>
 		</div>
+	</div>
+
+	<div id="text" class="text center">
 		<div class="logFace">
 			<span class="artistname">Login</span>
 			<div class="artistdesc">
@@ -49,8 +57,12 @@
 
 				
 			</div>
+		</div>
 			
 		</div>
+
+
+		<div id="text" class="text center">
 		<div class="setStake">
 			<span class="artistname">Set your stake</span>
 			<div class="artistdesc">
@@ -64,7 +76,10 @@
 			</p>
 			</div>
 		</div>
+		</div>
 
+
+<div id="text" class="text center">
 				<div class="chooseReferee">
 			<span class="artistname">AliMog</span>
 			<div class="artistdesc">
@@ -75,7 +90,9 @@
 
 			</div>
 		</div>
+	</div>
 
+<div id="text" class="text center">
 				<div class="congrats">
 			<h1>Congratulations!</h1>
 
@@ -85,7 +102,7 @@
 			Now go ACHIEVE<br/>
 			<br/>
 
-
+</div>
 		</div>
 
 
