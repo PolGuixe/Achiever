@@ -10,6 +10,7 @@ input,
 select,
 textarea {
     color: #222;
+	
 }
 
 body {
@@ -66,7 +67,8 @@ textarea {
 
 
 .intro{
-	background: url("../img/wall.jpg") center no-repeat;
+	//background: url("../img/wall.jpg") center no-repeat;
+	background-color:#17EDB2;
 }
 
 .intro .imgholder{
@@ -76,27 +78,42 @@ textarea {
 
 .imgholder img{
 	width: 100%;
-	height: auto;
+	//height: auto;
 }
 
 .info{
-	background: url("../img/2edit.jpg") center no-repeat;
+	height:100%;
+	//background: url("../img/2edit.jpg") center no-repeat;
 }
 
-.artist1{
-	background: url("../img/1edit.jpg") center no-repeat;
+.chooseGoal{
+	height:100%;
+	background-color:#F49B2E;
+	//background: url("../img/1edit.jpg") center no-repeat;
 }
 
-.artist2{
-	background: url("../img/3edit.jpg") center no-repeat;
+.logFace{
+	height:100%;
+	background-color:#438DF3;
+	//background: url("../img/3edit.jpg") center no-repeat;
 }
 
-.artist3{
-	background: url("../img/4edit.jpg") center no-repeat;
+.setStake{
+	height:100%;
+	background-color:#F23939;
+	//background: url("../img/4edit.jpg") center no-repeat;
 }
 
-.artist4{
-	background: url("../img/5edit.jpg") center no-repeat;
+.chooseReferee{
+	height:100%;
+	background-color:#309D57;
+	//background: url("../img/5edit.jpg") center no-repeat;
+}
+
+.congrats{
+	height:100%;
+	background-color:#05C1E2;
+	//background: url("../img/5edit.jpg") center no-repeat;
 }
 
 .panel{

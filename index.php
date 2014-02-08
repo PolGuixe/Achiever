@@ -22,20 +22,14 @@
 		<div class="panel intro">
 			<div class="imgholder">
 				<img src="img/logo.png">
-				<a href="http://standrewsfashion.co.uk/"><img src="img/fs.png" style="width: 30%; float: left; margin: 10%;"></a>
-				<a href="http://www.theyachtweek.com/"><img src="img/tyw.png" style="width: 40%; float: left; margin: 5%; margin-top: 10%;"></a>
 				<div style="width: 100%; clear: both; text-align: center">
 					Achieve your goals<br/>
 					Be who you want to be<br/>
 					<br> Making the latest discoveries in behavioural science work for you </br> 
 				</div>
-
 			</div>
 		</div>
-		<div class="vidpanel">
-			
-		</div>
-		<div class="panel artist3">
+		<div class="chooseGoal">
 			<span class="artistname">It is as easy as 1,2,3...</span>
 			<div class="artistdesc">
 				<p> Choose your goal, set your stake, get going! </p>
@@ -44,13 +38,9 @@
 						<li> Exercise 3 times this week </li> 
 						<li> Wake up early </li>
 					</ul>
-
-
-
 			</div>
-			<iframe width="100%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/113341777&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
 		</div>
-		<div class="panel artist1">
+		<div class="logFace">
 			<span class="artistname">Login</span>
 			<div class="artistdesc">
 				Login with Facebook
@@ -59,9 +49,9 @@
 
 				
 			</div>
-			<iframe width="100%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125630357&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
+			
 		</div>
-		<div class="panel artist2">
+		<div class="setStake">
 			<span class="artistname">Set your stake</span>
 			<div class="artistdesc">
 				<p> <h1> I stake ...</h1>  </p>
@@ -73,23 +63,29 @@
 					 </ul>
 			</p>
 			</div>
-			<iframe width="100%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117786642&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
 		</div>
-		<div class="panel artist4">
+
+				<div class="chooseReferee">
+			<span class="artistname">AliMog</span>
+			<div class="artistdesc">
+				
 			<span class="artistname">Nominate your referee</span>
 			<div class="artistdesc">
 				Select friend from facebook...
+
 			</div>
-			<iframe width="100%" height="250" src="//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2FAlimog%2Fbig-room-prog-house-mix%2F&amp;embed_type=widget_standard&amp;embed_uuid=c7644f41-6019-4473-ab6a-5fecff23a157&amp;hide_tracklist=1&amp;hide_cover=1" frameborder="0"></iframe>
 		</div>
-		<div class="panel info">
-			Congratulations!<br/>
-			<br/>
+
+				<div class="congrats">
+			<h1>Congratulations!</h1>
+
+<br/>
 			You have set your goal<br/>
 			<br/>
 			Now go ACHIEVE<br/>
 			<br/>
-			
+
+
 		</div>
 
 
