@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        <title>Stop Start by FS </title>
+        <title>Achiever</title>
     </head>
     <body>
 		<div class="panel intro">
