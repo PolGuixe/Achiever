@@ -20,4 +20,7 @@ $( document ).ready(function() {
 	$("#fb_login").click(function(){
 		logIn();
 	})
+	
+	$('#goal_time').datetimepicker();
+
 });
