@@ -79,8 +79,8 @@
 				<p> <h1> I stake ...</h1>  </p>
 				<p>
 				<ul> 
-					<li>One facebook post </li>
-					<li> If I don't achieve my goal.... my friends will know! </li>
+					<br>One facebook post </br>
+					<br> If I don't achieve my goal.... my friends will know! </br>
 
 					 </ul>
 			</p>
