@@ -14,62 +14,125 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-
+		 <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"/>
+         	
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="js/jquery.datetimepicker.js"></script>
+        <script src="js/jquery.js"></script>
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>-->
+        
+        <script src="js/main.js"></script>
+        
         <title>Achiever</title>
     </head>
     <body>
 		<div class="panel intro">
-			<div class="imgholder">
-				<img src="img/logo.png">
-				<a href="http://standrewsfashion.co.uk/"><img src="img/fs.png" style="width: 30%; float: left; margin: 10%;"></a>
-				<a href="http://www.theyachtweek.com/"><img src="img/tyw.png" style="width: 40%; float: left; margin: 5%; margin-top: 10%;"></a>
+			<!--<div class="imgholder">-->
+				<!-- <img src="img/logo.png">  -->
 				<div style="width: 100%; clear: both; text-align: center">
-					THE OFFICIAL FS AFTERPARTY<br/>
-					15.02.14 // 10.30PM<br/>
-					LOWER COLLEGE LAWN
+					Achieve your goals<br/>
+					Be who you want to be<br/>
+					<br> Making the latest discoveries in behavioural science work for you </br> 
 				</div>
+			<!--</div>-->
+		</div>
+		<div class="chooseGoal">
+		<span class="artistname">It is as easy as 1,2,3...</span>
+			<div id="text" class="text center">
+    		<div class="container" >
+				<p> Choose your goal, set your stake, get going! </p>
+				<p> I want to .... </p>
+
+						<input type="button" name="exercise" id="exercise" value="Exercise 3 times this week"><br> 
+						<input type="button" name="exercise" id="exercise" value="Wake up early ">
+					
+                 <div class="datepickerContainer">
+                            <label for="goal_time">for</label>
+                            <input type="text" id="goal_time" name="goal_time">
+                 </div><!--datepickerContainer-->  
+                    
 			</div>
 		</div>
-		<div class="vidpanel">
+	</div>
+
+	<div id="text" class="text center">
+		<div class="logFace">
+			<span class="login">Login</span>
+				Login with Facebook
+   				<input type="button" name="fb_login" id="fb_login" value="Login"> 
+		</div>
 			
 		</div>
-		<div class="panel artist3">
-			<span class="artistname">John Christian</span>
-			<div class="artistdesc">
-				John Christian is a DJ, producer, and recording studio owner based in the Netherlands. With Nicky Romero John began his foray into dance music championing his first release, a remix of Stevie Wonder classic Superstition. John Christian then went on to remix I Could Be The One, Romero’s wildly successful collaboration with Avicii. Since this hit remix, John Christian has continued releasing tracks on Tiesto's musical freedom label, including his very popular track flight 463, which has had support from the biggest names in the industry.
+
+
+		<div id="text" class="text center">
+		<div class="setStake">
+			<span class="artistname">Set your stake</span>
+			<div class="content">
+				<p> <h1> I stake ...</h1>  </p>
+				<p>
+				<ul> 
+
+					<br>One facebook post </br>
+					<br> If I don't achieve my goal.... my friends will know! </br>
+
+					 </ul>
+			</p>
+
 			</div>
-			<iframe width="100%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/113341777&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
 		</div>
-		<div class="panel artist1">
-			<span class="artistname">A.C.B</span>
+		</div>
+
+
+<div id="text" class="text center">
+				<div class="chooseReferee">
+			<span class="artistname">Track your progress</span>
 			<div class="artistdesc">
-				Since Summer 2011 A.C.B has set the St Andrews music scene alight, playing at the the biggest and best events in St Andrews as well as clubs in Edinburgh and London, including the world famous Ministry of Sound. For the past year A.C.B has been the head of music at the St Andrews Charity Fashion Show, headlining STARFIELDS festival during freshers week and composing the mix for the show itself. Included in the show will be a preview of his debut release on Papa records, Sababu.
-			</div>
-			<iframe width="100%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125630357&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
-		</div>
-		<div class="panel artist2">
-			<span class="artistname">Stanislaw</span>
+				
+			<span class="artistname">Nominate your referee</span>
 			<div class="artistdesc">
-				After co-founding moodroom collective in 2010, Henry was head of music at FS in 2012 and 2013. Now in London, he is forging a music career, working as an A&R Scout for Imagem Music Publishing and continuing to DJ, with his London debut at Unleash this December.
+				Select friend from facebook...
+
 			</div>
-			<iframe width="100%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117786642&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
 		</div>
-		<div class="panel artist4">
-			<span class="artistname">AliMog</span>
-			<div class="artistdesc">
-				Ali came on to the scene in 2011 with a residency at Ransom, Edinburgh. Ali is currently a resident at 'Vanity' & 'Mansion' in Aberdeen, as well as having previously played at St Andrews Rugby 7' & Opening Ball 2012.
-			</div>
-			<iframe width="100%" height="250" src="//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2FAlimog%2Fbig-room-prog-house-mix%2F&amp;embed_type=widget_standard&amp;embed_uuid=c7644f41-6019-4473-ab6a-5fecff23a157&amp;hide_tracklist=1&amp;hide_cover=1" frameborder="0"></iframe>
+	</div>
+
+<div id="text" class="text center">
+				<div class="congrats">
+			<h1>Congratulations!</h1>
+
+<br/>
+			You have set your goal<br/>
+			<br/>
+			Now go ACHIEVE<br/>
+			<br/>
+
+</div>
 		</div>
-		<div class="panel info">
-			TICKET SALES<br/>
-			£20<br/>
-			FRIDAY 7TH FEBRUARY<br/>
-			2PM<br/>
-			VENUE 1 - UNION<br/>
-			LIMITED CAPACITY<br/>
-			<a href="https://www.facebook.com/events/638029862899421/">FIND THE EVENT ON FACEBOOK HERE</a>
-		</div>
+
+
+<div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1418604408384387',
+          status     : true,
+          xfbml      : true
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/all.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+
     </body>
 </html>
+
