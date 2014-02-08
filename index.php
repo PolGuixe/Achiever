@@ -54,31 +54,65 @@
 			<span class="artistname">Login</span>
 			<div class="artistdesc">
 				Login with Facebook
+   
+   <input type="button" name="fb_login" id="fb_login" value="Login"> 
+
+				
 			</div>
 			<iframe width="100%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125630357&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
 		</div>
 		<div class="panel artist2">
 			<span class="artistname">Set your stake</span>
 			<div class="artistdesc">
-				<p> I stake 
+				<p> <h1> I stake ...</h1>  </p>
+				<p>
+				<ul> 
+					<li>One facebook post </li>
+					<li> If I don't achieve my goal.... my friends will know! </li>
+
+					 </ul>
+			</p>
 			</div>
 			<iframe width="100%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117786642&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
 		</div>
 		<div class="panel artist4">
-			<span class="artistname">AliMog</span>
+			<span class="artistname">Nominate your referee</span>
 			<div class="artistdesc">
-				Ali came on to the scene in 2011 with a residency at Ransom, Edinburgh. Ali is currently a resident at 'Vanity' & 'Mansion' in Aberdeen, as well as having previously played at St Andrews Rugby 7' & Opening Ball 2012.
+				Select friend from facebook...
 			</div>
 			<iframe width="100%" height="250" src="//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2FAlimog%2Fbig-room-prog-house-mix%2F&amp;embed_type=widget_standard&amp;embed_uuid=c7644f41-6019-4473-ab6a-5fecff23a157&amp;hide_tracklist=1&amp;hide_cover=1" frameborder="0"></iframe>
 		</div>
 		<div class="panel info">
-			TICKET SALES<br/>
-			£20<br/>
-			FRIDAY 7TH FEBRUARY<br/>
-			2PM<br/>
-			VENUE 1 - UNION<br/>
-			LIMITED CAPACITY<br/>
-			<a href="https://www.facebook.com/events/638029862899421/">FIND THE EVENT ON FACEBOOK HERE</a>
+			Congratulations!<br/>
+			<br/>
+			You have set your goal<br/>
+			<br/>
+			Now go ACHIEVE<br/>
+			<br/>
+			
 		</div>
+
+
+<div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '{your-app-id}',
+          status     : true,
+          xfbml      : true
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/all.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+
     </body>
 </html>
