@@ -38,19 +38,15 @@
 			</div>
 		</div>
 		<div class="chooseGoal">
-
-  
-
-
-			<span class="artistname">It is as easy as 1,2,3...</span>
+		<span class="artistname">It is as easy as 1,2,3...</span>
 			<div id="text" class="text center">
-    <div class="container" >
+    		<div class="container" >
 				<p> Choose your goal, set your stake, get going! </p>
-				<p> I want to .... <p>
-					<ul>
-						<li> <input type="button" name="exercise" id="exercise" value="Exercise 3 times this week">  </li> 
-						<li> <input type="button" name="exercise" id="exercise" value="Wake up early "></li>
-					</ul>
+				<p> I want to .... </p>
+
+						<input type="button" name="exercise" id="exercise" value="Exercise 3 times this week"><br> 
+						<input type="button" name="exercise" id="exercise" value="Wake up early ">
+					
                  <div class="datepickerContainer">
                             <label for="goal_time">for</label>
                             <input type="text" id="goal_time" name="goal_time">
@@ -79,11 +75,13 @@
 				<p> <h1> I stake ...</h1>  </p>
 				<p>
 				<ul> 
+
 					<br>One facebook post </br>
 					<br> If I don't achieve my goal.... my friends will know! </br>
 
 					 </ul>
 			</p>
+
 			</div>
 		</div>
 		</div>
