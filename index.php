@@ -27,7 +27,6 @@
 					Be who you want to be<br/>
 					<br> Making the latest discoveries in behavioural science work for you </br> 
 				</div>
-
 			</div>
 		</div>
 		<div class="chooseGoal">
@@ -39,9 +38,6 @@
 						<li> Exercise 3 times this week </li> 
 						<li> Wake up early </li>
 					</ul>
-
-
-
 			</div>
 		</div>
 		<div class="logFace">
