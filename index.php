@@ -117,9 +117,9 @@
         	<div class="header">
 				<span class="login">Login</span>
            </div>
-           <div class="imageBox">
+           <div class="imageBox" style="width: 400px;">
            	
-           		<img src="img/fac1.png">
+           		<img src="img/fac2.png">
                   
 				
                 </div>
