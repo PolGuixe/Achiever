@@ -17,10 +17,6 @@
 		 <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"/>
          	
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-<<<<<<< HEAD
-=======
-        
->>>>>>> b1e251ddbc3c10640346d42472e7c479feb6baa5
         <script src="js/jquery.js"></script>
         <script src="js/jquery.datetimepicker.js"></script>
         <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
@@ -41,7 +37,7 @@
         
 		<div class="chooseGoal">
 			<span class="artistname">It is as easy as 1,2,3...</span
-				<p> Choose your goal, set your stake, get going! </p>
+				><p> Choose your goal, set your stake, get going! </p>
 				<p> I want to .... </p>
 
 						<input type="button" name="exercise" id="exercise" value="Exercise 3 times this week"><br> 
