@@ -98,8 +98,9 @@ textarea {
 
 .panel{
 	width: 90%;
-	padding: 5%;
+	padding: 3% 5% 3% 5% ;
 	height: 90%;
+	position:relative;
 }
 .intro{
 	background-attachment: fixed;
@@ -134,24 +135,48 @@ textarea {
 	background-color:#DCEDFC;
 }
 
-.content {
-    width:700px;
+.contentWrapper {
+    width:100%;
 	margin-right: auto;
-    margin-left: auto;
+   margin-left: auto;
 }
 
 .header{
-	font-size:3em;	
+	font-size:3em;
+	/*margin-left:auto;
+	margin-right:auto;	*/
 }
 
 #logo{
-	width:20%;
+	width:15em;
 	height:auto;
-	padding:1%;
+	float:right;
 }
 #logo img{
 	width:100%;
 	height:auto;
+}
+#logo span{
+	float:right;
+	font-size:0.8em;
+	margin-top:-0.5em;
+	margin-right:2em;
+}
+
+.buttonWrapper{
+	/*top:88.5%;*/
+	left:50%;
+	margin-left:-7.5em;
+	position: absolute;
+	bottom: 0px;
+}
+.nextButton{
+	width:15em;
+	height:3em;
+	border-radius: 5em 5em 0em 0em;
+	border:none;
+	background-color:#CDCDCD;
+	opacity:0.4;
 }
 a,
 a:link,
