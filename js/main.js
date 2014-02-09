@@ -105,7 +105,7 @@ $(window).load(function() {
 	});
 	
 	
-	$(".panel:not(.intro)").hide();
+	//$(".panel:not(.intro)").hide();
 	
 	
 	$(".nextButton").click(function(){
