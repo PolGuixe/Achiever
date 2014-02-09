@@ -133,6 +133,7 @@ textarea {
 
 .congrats{
 	background-color:#DCEDFC;
+	color:#0E7DDC;
 }
 
 #logo{
@@ -152,14 +153,19 @@ textarea {
 }
 
 .header{
-	font-size:3em;
+	font-size:4em;
 	/*margin-left:auto;
 	margin-right:auto;	*/
 }
 .contentWrapper {
-    width:100%;
+   font-size: 2em;
+   text-align:center;
+   width:60%;
 	margin-right: auto;
    margin-left: auto;
+}
+.contentWrapper p,.contentWrapper span,.contentWrapper input{
+margin:1em;
 }
 
 .imageWrapper{
@@ -177,9 +183,7 @@ textarea {
 }
 
 .imageWrapper span{
-	width:100%;
-	margin-left:auto;
-	margin-right:auto;
+	width:250px;
 	text-align: center;
 }
 
@@ -195,25 +199,50 @@ textarea {
 	height:3em;
 	border-radius: 5em 5em 0em 0em;
 	border:none;
-	background-color:#CDCDCD;
-	opacity:0.4;
+	color: #636363;
+	background-color:#3FB0F2;
+	opacity:0.5;
 }
 
+/*.chooseGoal .selectWrapper{
+ background: #fafafa url("img/star-full.png") no-repeat 90% 50%;	
+}*/
+
 select{
-	background-color:#28F360;
 	border-radius:20px;
-	padding:1em;
+	padding:0.5em;
 	-webkit-appearance: none;
+	-moz-appearance:none;
 	color:white;
 	border:none;
-	
+	-webkit-border-radius:2em;
+    -moz-border-radius:2em;
+    border-radius:2em;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+/*	background: url('img/star-full.png') no-repeat 100% 4px #fff;*/
+}
+.chooseGoal select{
+background-color:#28F360;
+}
+.setStake select{
+background-color:#FB2A2E;
 }
 input[type="text"] {
             border: 0;
-            padding: 12px;
-            font-size: 18px;
-            border-radius:5em;
-        }
+            padding: 0.5em;
+            border-radius:2em;
+}
+
+#stake_desc{
+width:18em;
+}
 a,
 a:link,
 a:visited,
