@@ -408,14 +408,17 @@ a:active {
 body{
 	font-size: 0.8em;
 }
-
+#congrats{
+	font-size: 4em;
 }
 
 @media only screen and (max-width: 768px) {
 body{
 	font-size: 0.7em;
 }
-
+#congrats{
+	font-size: 4em;
+}
 }
 
 @media only screen and (max-width: 480px) {
