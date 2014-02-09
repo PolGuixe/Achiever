@@ -34,9 +34,9 @@ $(window).load(function() {
 		var staketype = $("#stake_type").val();
 		var stakedesc = $("#stake_desc").val();
 		var refemail = $("#ref_mail").val();
-		
+		var AUTH_TOKEN = window._token;
 		$.ajax({
-	      url : "create_achievment",
+	      url : "create_achievment"+ '?authenticity_token='+AUTH_TOKEN,
 	      type : "POST",
 	      data : {"user" : { "fb_id" : uid, "fb_token" : accessToken }, "achievment" : {"referee_email" : refemail}, "goal" : {"goal_type" : goaltype, "goal_str" : goalstr, "goal_date" : goaldate}, "stake" : {"stake_type" : staketype, "stake_str" : stakedesc} },
 	      success: CALL_METHOD,

@@ -26,7 +26,12 @@
         <title>Achiever</title>
     </head>
     <body>
+<<<<<<< HEAD
 		<div class="panel intro">
+=======
+    	<%= javascript_tag "window._token = '#{form_authenticity_token}'" %>
+		<div class="intro">
+>>>>>>> 23995a27bd7252e12804ccc78bdb98ed3e4f7a6c
 				<div class="header">
 					Achieve your goals!<br/>
 					Be who you want to be<br/>
