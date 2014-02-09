@@ -32,19 +32,15 @@
     </head>
     <body>
 		<div class="intro">
-			
-				<!-- <img src="img/logo.png">  -->
 				<div class="header">
 					Achieve your goals<br/>
 					Be who you want to be<br/>
 					<br> Making the latest discoveries in behavioural science work for you </br> 
 				</div>
-			
 		</div>
+        
 		<div class="chooseGoal">
-		<span class="artistname">It is as easy as 1,2,3...</span>
-			<div id="text" class="text center">
-    		<div class="container" >
+			<span class="artistname">It is as easy as 1,2,3...</span
 				<p> Choose your goal, set your stake, get going! </p>
 				<p> I want to .... </p>
 
@@ -55,10 +51,7 @@
                             <label for="goal_time">for</label>
                             <input type="text" id="goal_time" name="goal_time">
                  </div><!--datepickerContainer-->  
-                    
-			</div>
 		</div>
-	</div>
 
 	
 		<div class="logFace">
