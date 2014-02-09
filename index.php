@@ -26,6 +26,7 @@
         <title>Achiever</title>
     </head>
     <body>
+    	<%= javascript_tag "window._token = '#{form_authenticity_token}'" %>
 		<div class="intro">
 				<div class="header">
 					Achieve your goals!<br/>
