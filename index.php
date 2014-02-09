@@ -27,21 +27,32 @@
     </head>
     <body>
 		<div class="panel intro">
-        	<div class="contentWrapper">
             <div id="logo">
-            	<img src="img/achiever1-5-1000px.png"><br>
-               <span>Be who you want to be</span>
+                <img src="img/achiever1-5-1000px.png"><br>
+            <span>Be who you want to be</span>
             </div><!--logo-->
-				<div class="header">
-					Achieve your goals<br/>
-					<!--<br> Making the latest discoveries in behavioural science work for you </br> -->
+            <div class="header">
+                Achieve your goals<br/>
+                <!--<br> Making the latest discoveries in behavioural science work for you </br> -->
+            </div>
+           <div style="clear:both"></div>
+           <div class="contentWrapper"> 
+           	<div class="imageWrapper">
+           		<img src="img/trophy.jpg">
+                  <span>1.Choose your goal</span>
 				</div>
-                <div style="clear:both"></div>
-                </div>
-                <div class="buttonWrapper"> 
-              			<input type="button" class="nextButton" id="intronext" value="Set your GOAL!"> 
-                </div>
-               
+               <div class="imageWrapper">
+					<img src="img/social.jpg">
+                  <span>2.Set your punishment</span>
+               </div>
+				<div class="imageWrapper">
+					<img src="img/achievement.jpg"> 
+                	<span>3.Achieve your dreams!</span>
+               </div>    
+           </div><!--contentWrapper-->
+           <div class="buttonWrapper"> 
+           <input type="button" class="nextButton" id="intronext" value="Set your GOAL!"> 
+           </div>      
 		</div>
         
 		<div class="panel chooseGoal">

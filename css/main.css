@@ -103,9 +103,9 @@ textarea {
 	position:relative;
 }
 .intro{
-	background-attachment: fixed;
+	/*background-attachment: fixed;
 	background-size: cover;
-	display: block;
+	display: block;*/
 	background-color:#0E7DDC;
 }
 
@@ -135,18 +135,6 @@ textarea {
 	background-color:#DCEDFC;
 }
 
-.contentWrapper {
-    width:100%;
-	margin-right: auto;
-   margin-left: auto;
-}
-
-.header{
-	font-size:3em;
-	/*margin-left:auto;
-	margin-right:auto;	*/
-}
-
 #logo{
 	width:15em;
 	height:auto;
@@ -161,6 +149,38 @@ textarea {
 	font-size:0.8em;
 	margin-top:-0.5em;
 	margin-right:2em;
+}
+
+.header{
+	font-size:3em;
+	/*margin-left:auto;
+	margin-right:auto;	*/
+}
+.contentWrapper {
+    width:100%;
+	margin-right: auto;
+   margin-left: auto;
+}
+
+.imageWrapper{
+	width:250px;
+	height:250px;
+	float:left;
+	margin:5%;
+}
+
+.imageWrapper img{
+	width:100%;
+	height:auto;
+	border:2px solid #B6A8A8;
+	border-radius:50%;
+}
+
+.imageWrapper span{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
 }
 
 .buttonWrapper{
@@ -178,6 +198,22 @@ textarea {
 	background-color:#CDCDCD;
 	opacity:0.4;
 }
+
+select{
+	background-color:#28F360;
+	border-radius:20px;
+	padding:1em;
+	-webkit-appearance: none;
+	color:white;
+	border:none;
+	
+}
+input[type="text"] {
+            border: 0;
+            padding: 12px;
+            font-size: 18px;
+            border-radius:5em;
+        }
 a,
 a:link,
 a:visited,
