@@ -98,9 +98,8 @@ textarea {
 
 .panel{
 	width: 90%;
-	padding-right: 5%;
-	padding-left: 5%;
-	height: 100%;
+	padding: 5%;
+	height: 90%;
 }
 .intro{
 	background-attachment: fixed;
@@ -145,7 +144,15 @@ textarea {
 	font-size:3em;	
 }
 
-
+#logo{
+	width:20%;
+	height:auto;
+	padding:1%;
+}
+#logo img{
+	width:100%;
+	height:auto;
+}
 a,
 a:link,
 a:visited,

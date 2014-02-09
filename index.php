@@ -35,6 +35,7 @@
 					Be who you want to be<br/>
 					<br> Making the latest discoveries in behavioural science work for you </br> 
 				</div>
+              	<input type="button" id="intronext" value="next"> 
 		</div>
         
 		<div class="panel chooseGoal">
@@ -59,13 +60,16 @@
                             <input type="text" id="goal_time" name="goal_time">
                  		</div><!--datepickerContainer--> 
                  </div><!--goalextra -->
+                 <input type="button" id="chooseGoalnext" value="next"> 
 		</div>
 
 	
 		<div class="panel logFace">
 			<span class="login">Login</span>
 				Login with Facebook
-   				<input type="button" name="fb_login" id="fb_login" value="Login"> 
+   				<input type="button" name="fb_login" id="fb_login" value="Login"><br>
+                
+              <input type="button" id="logFacenext" value="next"> 
 		</div>
         
 		<div class="panel setStake">
@@ -84,7 +88,7 @@
 				
 					<span id="stake_desc_label"> If I don't achieve my goal.... my friends will know! </span>
 				</div><!--stakeextra-->
-
+					<input type="button" id="setStakenext" value="next"> 
 			</div>
 		</div>
 		
@@ -96,7 +100,7 @@
                  		<input type="text" id="ref_mail" value="i.e. yourbestfriend@gmail.com"><br>
                   	<input type="button" id="confirm_button" value="Set your goal!">
                  
-		
+				<input type="button" id="chooseRefereenext" value="next"> 
 	</div>
 
 
