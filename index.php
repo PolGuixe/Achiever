@@ -26,7 +26,15 @@
         <title>Achiever</title>
     </head>
     <body>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		<div class="panel intro">
+=======
+    	<%= javascript_tag "window._token = '#{form_authenticity_token}'" %>
+>>>>>>> b37e1fedc8d00f168d78d1951b353860e6ea6c5a
 		<div class="intro">
+>>>>>>> 23995a27bd7252e12804ccc78bdb98ed3e4f7a6c
 				<div class="header">
 					Achieve your goals<br/>
 					Be who you want to be<br/>
@@ -34,8 +42,10 @@
 				</div>
 		</div>
         
-		<div class="chooseGoal">
-			<span class="artistname">It is as easy as 1,2,3...</span
+		<div class="panel chooseGoal">
+			<div class="header">
+            It is as easy as 1,2,3...
+            </div>
 				><p> Choose your goal, set your stake, get going! </p>
 				<p> I want to .... </p>
 	
@@ -54,13 +64,13 @@
 		</div>
 
 	
-		<div class="logFace">
+		<div class="panel logFace">
 			<span class="login">Login</span>
 				Login with Facebook
    				<input type="button" name="fb_login" id="fb_login" value="Login"> 
 		</div>
         
-		<div class="setStake">
+		<div class="panel setStake">
 			<span class="header">Set your stake</span>
 			<div class="content">
 				<p> <h1> I stake ...</h1>  </p>
@@ -80,7 +90,7 @@
 			</div>
 		</div>
 		
-        <div class="chooseReferee">
+        <div class="panel chooseReferee">
 			<span class="referee">Nominate your referee</span>
 			
 				Select your referee:
@@ -92,7 +102,7 @@
 	</div>
 
 
-<div class="congrats">
+<div class="panel congrats">
 			Congratulations!
 
 <br/>
