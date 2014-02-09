@@ -385,10 +385,12 @@ position:relative;*/
 	font-size:0.5em;
 	font-size:1.5em;
 	top:50%;
+	font-weight:200;
 }
 #dynamicContent{
 color:#17EDB2;
 }
+
 a,
 a:link,
 a:visited,
@@ -396,7 +398,7 @@ a:hover,
 a:active {
     color: white; /*color of your choosing*/
     text-decoration: none;
-    font-weight: normal;
+    font-weight:bold;
 }
 
 

@@ -1,7 +1,7 @@
 //globals
 var uid = null;
 var accessToken = null;
-var allvis = false;
+var allvis = true;
 
 function logOut(){
 	
@@ -82,6 +82,9 @@ $(window).load(function() {
 		    });
 		    scroll(".chooseReferee", ".congrats");
 		}
+		
+		$("#dynamicContent").hide(1500);
+		$("#dynamicContent").fadeIn(400);
 		
 	})
 	
