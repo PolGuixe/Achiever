@@ -56,6 +56,9 @@
            <div class="buttonWrapper"> 
            <input type="button" class="nextButton" id="intronext" value="Set your GOAL!"> 
 
+           </div>
+           <div class="help">
+           <a href='#' onclick='overlay()'>Click here to show the overlay</a>
            </div>      
 		</div>
         

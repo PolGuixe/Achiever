@@ -36,6 +36,11 @@ function isValidEmailAddress(emailAddress) {
     return pattern.test(emailAddress);
 };
 
+function overlay() {
+	el = document.getElementById("overlay");
+	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+}
+
 $(window).load(function() {
 
   window.fbAsyncInit = function() {
@@ -122,6 +127,7 @@ $(window).load(function() {
 		$(".buttonWrapper").css("margin-left","-7.5em");
 	});
 	
+
 	
 	//$(".panel:not(.intro)").hide();
 	
