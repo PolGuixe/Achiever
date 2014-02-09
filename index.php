@@ -17,25 +17,25 @@
 		 <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"/>
          	
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        <script src="js/jquery.datetimepicker.js"></script>
+        
         <script src="js/jquery.js"></script>
         <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
         <!--<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>-->
-        
+        <script src="js/jquery.datetimepicker.js"></script>
         <script src="js/main.js"></script>
         
         <title>Achiever</title>
     </head>
     <body>
 		<div class="intro">
-			<!--<div class="imgholder">-->
+			
 				<!-- <img src="img/logo.png">  -->
-				<div style="width: 100%; clear: both; text-align: center">
+				<div class="header">
 					Achieve your goals<br/>
 					Be who you want to be<br/>
 					<br> Making the latest discoveries in behavioural science work for you </br> 
 				</div>
-			<!--</div>-->
+			
 		</div>
 		<div class="chooseGoal">
 		<span class="artistname">It is as easy as 1,2,3...</span>
