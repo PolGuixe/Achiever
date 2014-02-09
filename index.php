@@ -128,7 +128,7 @@
 		</div>
 
         <div class="help">
-            <a href='#' onclick='overlay()'>   ?</a>
+            <a  onclick='overlay()'>   ?</a>
             <div id="overlay">
                 <div>
                     <p>If you fail to achieve your goals, we will let your Facebook friends know. Please give us permission to do this. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
@@ -156,7 +156,7 @@
 			</div><!--contentWrapper-->
 
             <div class="help">
-            <a href='#' onclick='overlay()'>   ?</a>
+            <a  onclick='overlay()'>   ?</a>
             <div id="overlay">
                 <div>
                     <p>In order to motivate you, there will be something at stake if you do not achieve your goal. Please select your motivator. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
@@ -180,7 +180,7 @@
 	</div>
 
 <div class="help">
-            <a href='#' onclick='overlay()'>   ?</a>
+            <a  onclick='overlay()'>   ?</a>
             <div id="overlay">
                 <div>
                     <p>Someone will have to check on your progress, to make sure you really do what you promise. Select this person carefully to be independent and fair, your social reputation might be at stake. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
