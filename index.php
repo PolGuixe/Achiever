@@ -43,7 +43,7 @@
 				</div>
                <div class="imageWrapper">
 					<img src="img/social.jpg">
-                  <span>2.Set your punishment</span>
+                  <span>2.Set your stake</span>
                </div>
 				<div class="imageWrapper">
 					<img src="img/achievement.jpg"> 
@@ -52,16 +52,17 @@
            <div class="contentWrapper">        
            </div><!--contentWrapper-->
            <div class="buttonWrapper"> 
-           <input type="button" class="nextButton" id="intronext" value="Set your GOAL!"> 
+           <input type="button" class="introButton" id="intronext" value="Set your GOAL!"> 
+
            </div>      
 		</div>
         
 		<div class="panel chooseGoal">
 			<div class="header">
-            It is as easy as 1,2,3...
+            <span> Let's get started </span> 
             </div>
              <div class="contentWrapper"> 
-				<p> Choose your goal, set your stake, get going! </p>
+				<p>  </p>
 				<span>I want to ....
 					<!--<div class="selectWrapper">-->
     				<select id="goal_type" >
@@ -85,6 +86,11 @@
                  <input type="button" class="nextButton" id="chooseGoalnext" value="next"> 
                  </div>
 		</div>
+
+
+        
+
+
 
 		<div class="panel logFace">
         	<div class="header">
@@ -148,7 +154,7 @@
 			<br/>
 			</div><!--contentWrapper--> 
 <br>
-Check out our <a href="http://behaviouralinsights.wordpress.com/" >blog! </a>
+Check out our <a href="http://behaviouralinsights.wordpress.com/">blog! </a>
 </br>
 
 

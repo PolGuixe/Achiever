@@ -194,6 +194,20 @@ margin:1em;
 	position: absolute;
 	bottom: 0px;
 }
+
+
+.introButton{
+    width:15em;
+    height:5em;
+    border-radius: 5em 5em 0em 0em;
+    border:none;
+    color: #636363;
+    background-color:#28F360;
+    opacity:0.5;
+} 
+
+
+}
 .nextButton{
 	width:15em;
 	height:3em;
