@@ -30,7 +30,7 @@ $(window).load(function() {
 	$("#confirm_button").click(function(){
 		var goaltype = $("#goal_type").val();
 		var goalstr = $("#goal_desc").val();
-		var goaldate = $("#goal_date").val();
+		var goaldate = $("#goal_time").val();
 		var staketype = $("#stake_type").val();
 		var stakedesc = $("#stake_desc").val();
 		var refemail = $("#ref_mail").val();
