@@ -153,7 +153,7 @@
    <img src="img/achiever1-5-1000px.png"><br>
    <span>Be who you want to be</span>
    </div><!--logo-->
-<div class="header">
+
 <span>Check out our<a href="http://behaviouralinsights.wordpress.com/" >blog! </a></span>
 </div><!--footer-->
 
