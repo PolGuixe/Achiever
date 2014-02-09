@@ -183,6 +183,11 @@ margin:0.75em;
 	/*margin-top:5%;*/
 }
 
+.imageBox img{
+	width: 100%;
+	height: auto;
+}
+
 .imageWrapper{
 	width:250px;
 	height:250px;
