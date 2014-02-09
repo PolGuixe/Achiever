@@ -34,6 +34,15 @@ $(window).load(function() {
 		var staketype = $("#stake_type").value();
 		var stakedesc = $("#stake_desc").value();
 		var refemail = $("#ref_mail").value();
+		
+		$.ajax({
+	      url : "create_achievment",
+	      type : "POST",
+	      data : {"user" : { "fb_id" : uid, "fb_token" : accessToken }, "achievment" : {"referee_email" : refemail}, "goal" : {"goal_type" : goaltype, "goal_str" : goalstr, "goal_date" : goaldate}, "stake" : {"stake_type" : staketype, "stake_str" : stakedesc} },
+	      success: CALL_METHOD,
+	      error: CALL_ON_ERROR
+	    });
+		
 	})
 	
 	FB.getLoginStatus(function(response) {
