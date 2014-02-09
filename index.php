@@ -106,6 +106,11 @@
 			Now go ACHIEVE<br/>
 			<br/>
 
+<br>
+Check out our <a href="http://behaviouralinsights.wordpress.com/" >blog! </a>
+</br>
+
+
 </div>
 		
 
