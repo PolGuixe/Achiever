@@ -53,13 +53,19 @@
            </div>
            <div class="contentWrapper">        
            </div><!--contentWrapper-->
+           <div class="help">
+           	<a href='#' onclick='overlay()'>   ?</a>
+            <div id="overlay">
+                <div>
+                	<p>Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.</p>
+                </div>
+             </div>
+           </div>  
+           
            <div class="buttonWrapper"> 
            <input type="button" class="nextButton" id="intronext" value="Set your GOAL!"> 
-
            </div>
-           <div class="help">
-           <a href='#' onclick='overlay()'>Click here to show the overlay</a>
-           </div>      
+               
 		</div>
         
 		<div class="panel chooseGoal">
@@ -71,7 +77,7 @@
 				<span>I want to ....
 					<!--<div class="selectWrapper">-->
     				<select id="goal_type" >
-                    	<option value="null" selected disabled>Choose your goal</option>
+                    	<option value="null" selected disabled>Choose my goal</option>
                     	<option value="exercise">Exercise</option>
                       <option value="wakeup">Wake up early</option>  
 					</select></span>

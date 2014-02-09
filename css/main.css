@@ -186,8 +186,10 @@ margin:0.75em;
 }
 
 .imageWrapper span{
-	width:250px;
+	width:100%;
 	text-align: center;
+	display:block;
+	
 }
 
 .buttonWrapper{
@@ -210,18 +212,21 @@ margin:0.75em;
 	opacity:0.5;
 }
 
-#help{
-bottom:0px;
-float:right;
+.help{
+bottom:0em;
+left:90%;
+
 position: absolute;
+font-size:1.5em;
+
 }
 
 
 #overlay {
      visibility: hidden;
      position: absolute;
-     left: 0px;
-     top: 0px;
+     left: -400px;
+     top: -400px;
      width:100%;
      height:100%;
      text-align:center;
@@ -230,13 +235,15 @@ position: absolute;
 
 
 #overlay div {
-     width:300px;
-     margin: 100px auto;
-     background-color: #fff;
-     border:1px solid #000;
-     padding:15px;
-     text-align:center;
+	width: 400px;
+	margin: 100px auto;
+	background-color: rgba(23,237,178,0.40);
+	border: 0;
+	padding: 15px;
+	text-align: center;
+	border-radius: 2em;	
 }
+
 
 
 
