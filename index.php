@@ -98,7 +98,7 @@
             <a onclick='overlay()'>   ?</a>
             <div id="overlay">
                 <div>
-                    <p>To make the best use of Achiever. The clearer the goals are, the more you will achieve. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
+                    <p>To make the best use of Achiever ensure your goals are clear and measureable.  For more info click <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
                 </div>
              </div>
            </div>  
@@ -137,7 +137,7 @@
             <a  onclick='overlay()'>   ?</a>
             <div id="overlay">
                 <div>
-                    <p>If you fail to achieve your goals, we will let your Facebook friends know. Please give us permission to do this. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
+                    <p>If you fail to achieve your goals, we will let your Facebook friends know. Please give us permission to do this. For more info click <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
                 </div>
              </div>
            </div>  
@@ -165,7 +165,7 @@
             <a  onclick='overlay()'>   ?</a>
             <div id="overlay">
                 <div>
-                    <p>In order to motivate you, there will be something at stake if you do not achieve your goal. Please select your motivator. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
+                    <p>In order to motivate you, there will be something at stake if you do not achieve your goal. Please select your motivator. </p>
                 </div>
              </div>
            </div> 
