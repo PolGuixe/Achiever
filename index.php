@@ -95,9 +95,9 @@
    				<input type="button" name="fb_login" id="fb_login" value="Login"><br>
            </div><!--contentWrapper-->
                 
-              <div class="buttonWrapper">   
+            <!--  <div class="buttonWrapper">   
               <input type="button" class="nextButton" id="logFacenext" value="next"> 
-              </div>
+              </div>-->
 		</div>
         
 		<div class="panel setStake">
@@ -131,15 +131,12 @@
                  
                  			<input type="text" id="ref_mail" value="i.e. yourbestfriend@gmail.com"><br>
                   		<input type="button" id="confirm_button" value="Set your goal!">
-              </div><!--contentWrapper-->    
-              <div class="buttonWrapper">   
-				<input type="button" class="nextButton" id="chooseRefereenext" value="next"> 
-               </div> 
+              </div><!--contentWrapper-->     
 	</div>
 
 
 <div class="panel congrats">
-			<div id="congrats">Congratulations!</div
+			<div id="congrats">CONGRATULATIONS!</div
            ><br/>
 			<div class="contentWrapper">
             You have set your goal<br/>
@@ -147,12 +144,19 @@
 			Now go ACHIEVE<br/>
 			<br/>
 			</div><!--contentWrapper--> 
-<br>
-Check out our <a href="http://behaviouralinsights.wordpress.com/" >blog! </a>
-</br>
-
 
 </div>
+<div id="footer">
+<div id="logo">
+   <img src="img/achiever1-5-1000px.png"><br>
+   <span>Be who you want to be</span>
+   </div><!--logo-->
+<div class="header">
+<span>Check out our<a href="http://behaviouralinsights.wordpress.com/" >blog! </a></span>
+</div><!--footer-->
+
+
+
 		
 
 
