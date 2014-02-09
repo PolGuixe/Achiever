@@ -57,7 +57,7 @@
            	<a href='#' onclick='overlay()'>   ?</a>
             <div id="overlay">
                 <div>
-                	<p>Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.Some cool info.</p>
+                	<p>Achiever helps you to commit to your goals fully and overcome behavioural inertia. You tell us what you want to do and we use your social network to actually make you do it. Check out our blog for more info about the science behind it <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
                 </div>
              </div>
            </div>  
@@ -93,6 +93,16 @@
                  		</div><!--datepickerContainer--> 
                  </div><!--goalextra -->
                  </div><!--contentWrapper-->
+
+           <div class="help">
+            <a href='#' onclick='overlay()'>   ?</a>
+            <div id="overlay">
+                <div>
+                    <p>To make the best use of Achiever. The clearer the goals are, the more you will achieve. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
+                </div>
+             </div>
+           </div>  
+
                  <div class="buttonWrapper"> 
                  <input type="button" class="nextButton" id="chooseGoalnext" value="next"> 
                  </div>
@@ -116,6 +126,15 @@
               <input type="button" class="nextButton" id="logFacenext" value="next"> 
               </div>-->
 		</div>
+
+        <div class="help">
+            <a href='#' onclick='overlay()'>   ?</a>
+            <div id="overlay">
+                <div>
+                    <p>If you fail to achieve your goals, we will let your Facebook friends know. Please give us permission to do this. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
+                </div>
+             </div>
+           </div>  
         
 		<div class="panel setStake">
 			<div class="header">Set your stake</div>
@@ -135,6 +154,15 @@
 				</div><!--stakeextra-->
 					
 			</div><!--contentWrapper-->
+
+            <div class="help">
+            <a href='#' onclick='overlay()'>   ?</a>
+            <div id="overlay">
+                <div>
+                    <p>In order to motivate you, there will be something at stake if you do not achieve your goal. Please select your motivator. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
+                </div>
+             </div>
+           </div> 
                 
            <div class="buttonWrapper"> 
            <input type="button" class="nextButton"id="setStakenext" value="next"> 
@@ -151,6 +179,14 @@
               </div><!--contentWrapper-->     
 	</div>
 
+<div class="help">
+            <a href='#' onclick='overlay()'>   ?</a>
+            <div id="overlay">
+                <div>
+                    <p>Someone will have to check on your progress, to make sure you really do what you promise. Select this person carefully to be independent and fair, your social reputation might be at stake. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
+                </div>
+             </div>
+           </div> 
 
 <div class="panel congrats">
 			<div id="congrats">CONGRATULATIONS!</div>
