@@ -1,6 +1,7 @@
 //globals
 var uid = null;
 var accessToken = null;
+var allvis = true;
 
 function logOut(){
 	
@@ -27,7 +28,7 @@ function scroll(from, to){
 	$('html, body').animate({
         scrollTop: $(to).offset().top
     }, 2000, function (){
-	    $(from).hide();
+	    if (!allvis) $(from).hide();
     });
 }
 
@@ -123,7 +124,7 @@ $(window).load(function() {
 	});
 	
 	
-	//$(".panel:not(.intro)").hide();
+	if (!allvis) $(".panel:not(.intro)").hide();
 	
 	
 	$(".nextButton").click(function(){
