@@ -196,7 +196,9 @@
 <div class="panel congrats">
 			<div id="congrats">CONGRATULATIONS!</div>
             <div class="contentWrapper">
-            You have set your goal. Now go ACHIEVE!
+            	<div id="dynamicContent">
+            	You have set your goal. Now go ACHIEVE!
+                </div>
 			</div><!--contentWrapper--> 
 
 

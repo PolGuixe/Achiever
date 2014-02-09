@@ -205,7 +205,7 @@ margin:0.75em;
 .imageWrapper img{
 	width:100%;
 	height:auto;
-	border:2px solid #B6A8A8;
+	border:2px solid #17EDB2;
 	border-radius:50%;
 }
 
@@ -368,7 +368,7 @@ margin-top:10%;
 background-color:#0E7DDC;
 border-top:2px solid #17EDB2;
 height:4.5em;
-margin-top:-4.5em;
+margin-top:-6em;
 font-size:1em;	
 padding: 1% 5% 1% 5%;
 z-index:10;
@@ -385,6 +385,9 @@ position:relative;*/
 	font-size:0.5em;
 	font-size:1.5em;
 	top:50%;
+}
+#dynamicContent{
+color:#17EDB2;
 }
 a,
 a:link,
