@@ -28,12 +28,12 @@ $(window).load(function() {
 	});
 	
 	$("#confirm_button").click(function(){
-		var goaltype = $("#goal_type").value();
-		var goalstr = $("#goal_desc").value();
-		var goaldate = $("#goal_date").value();
-		var staketype = $("#stake_type").value();
-		var stakedesc = $("#stake_desc").value();
-		var refemail = $("#ref_mail").value();
+		var goaltype = $("#goal_type").val();
+		var goalstr = $("#goal_desc").val();
+		var goaldate = $("#goal_date").val();
+		var staketype = $("#stake_type").val();
+		var stakedesc = $("#stake_desc").val();
+		var refemail = $("#ref_mail").val();
 		
 		$.ajax({
 	      url : "create_achievment",
