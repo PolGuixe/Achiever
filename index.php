@@ -37,6 +37,7 @@
             </div>
            <div style="clear:both"></div>
            
+           <div class="imageBox">
            	<div class="imageWrapper">
            		<img src="img/trophy.jpg">
                   <span>1.Choose your goal</span>
@@ -49,6 +50,7 @@
 					<img src="img/achievement.jpg"> 
                 	<span>3.Achieve your dreams!</span>
                </div> 
+           </div>
            <div class="contentWrapper">        
            </div><!--contentWrapper-->
            <div class="buttonWrapper"> 
