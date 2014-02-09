@@ -96,40 +96,6 @@ textarea {
 	//height: auto;
 }*/
 
-.info{
-	height:100%;
-	
-}
-
-.chooseGoal{
-	height:100%;
-	background-color:#F49B2E;
-	
-}
-
-.logFace{
-	height:100%;
-	background-color:#438DF3;
-	
-}
-
-.setStake{
-	height:100%;
-	background-color:#F23939;
-	
-}
-
-.chooseReferee{
-	height:100%;
-	background-color:#309D57;
-	
-}
-
-.congrats{
-	height:100%;
-	background-color:#05C1E2;
-}
-
 .intro{
 	width: 90%;
 	padding-right: 5%;
@@ -138,9 +104,37 @@ textarea {
 	background-attachment: fixed;
 	background-size: cover;
 	display: block;
-	background-color:#17EDB2;
+	background-color:#0E7DDC;
 }
 
+.chooseGoal{
+	height:100%;
+	background-color:#1C8EF0;
+	
+}
+
+.logFace{
+	height:100%;
+	background-color:#3F9FF2;
+	
+}
+
+.setStake{
+	height:100%;
+	background-color:#64B1F4;
+	
+}
+
+.chooseReferee{
+	height:100%;
+	background-color:#8CC5F6;
+	
+}
+
+.congrats{
+	height:100%;
+	background-color:#DCEDFC;
+}
 
 .content {
     width:700px;

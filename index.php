@@ -28,7 +28,7 @@
     <body>
 		<div class="intro">
 				<div class="header">
-					Achieve your goals<br/>
+					Achieve your goals!<br/>
 					Be who you want to be<br/>
 					<br> Making the latest discoveries in behavioural science work for you </br> 
 				</div>
