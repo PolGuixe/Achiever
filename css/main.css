@@ -98,40 +98,53 @@ textarea {
 
 .panel{
 	width: 90%;
+<<<<<<< HEAD
 	padding-right: 5%;
 	padding-left: 5%;
 	height: 100%;
+=======
+	padding: 3% 5% 3% 5% ;
+	height: 90%;
+	position:relative;
+	background-color:#1C8EF0;
+>>>>>>> 056036c8da4b50fe1a67903988cb5d3b722a9aa8
 }
 .intro{
 	background-attachment: fixed;
 	background-size: cover;
+<<<<<<< HEAD
 	display: block;
 	background-color:#0E7DDC;
+=======
+	display: block;*/
+	/*background-color:#0E7DDC;*/
+>>>>>>> 056036c8da4b50fe1a67903988cb5d3b722a9aa8
 }
 
 .chooseGoal{
 	
-	background-color:#1C8EF0;
+	/*background-color:#1C8EF0;*/
 	
 }
 
 .logFace{
 	
-	background-color:#3F9FF2;
+	/*background-color:#3F9FF2;*/
 	
 }
 
 .setStake{
-	background-color:#64B1F4;
+	/*background-color:#64B1F4;*/
 	
 }
 
 .chooseReferee{
-	background-color:#8CC5F6;
+	/*background-color:#8CC5F6;*/
 	
 }
 
 .congrats{
+<<<<<<< HEAD
 	background-color:#DCEDFC;
 }
 
@@ -139,6 +152,51 @@ textarea {
     width:700px;
 	margin-right: auto;
     margin-left: auto;
+=======
+	/*background-color:#DCEDFC;
+	color:#0E7DDC;*/
+	border-top:2px solid #17EDB2;
+	z-index:-1;
+}
+
+#logo{
+	width:15em;
+	height:auto;
+	float:right;
+}
+#logo img{
+	width:100%;
+	height:auto;
+}
+#logo span{
+	float:right;
+	font-size:0.8em;
+	margin-top:-0.5em;
+	margin-right:2em;
+}
+
+.header{
+	font-size:4em;
+	/*margin-left:auto;
+	margin-right:auto;	*/
+}
+.contentWrapper {
+   font-size: 1.75em;
+   text-align:center;
+   width:60%;
+   margin-right: auto;
+   margin-left: auto;
+}
+.contentWrapper p,.contentWrapper span,.contentWrapper input{
+margin:0.75em;
+}
+
+.imageWrapper{
+	width:250px;
+	height:250px;
+	float:left;
+	margin:5%;
+>>>>>>> 056036c8da4b50fe1a67903988cb5d3b722a9aa8
 }
 
 .header{
@@ -146,6 +204,87 @@ textarea {
 }
 
 
+<<<<<<< HEAD
+=======
+select{
+	border-radius:20px;
+	padding:0.5em;
+	-webkit-appearance: none;
+	-moz-appearance:none;
+	color:white;
+	border:none;
+	-webkit-border-radius:2em;
+    -moz-border-radius:2em;
+    border-radius:2em;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+/*	background: url('img/star-full.png') no-repeat 100% 4px #fff;*/
+}
+.chooseGoal select{
+background-color:#28F360;
+}
+.setStake select{
+background-color:#FB2A2E;
+}
+input[type="text"]{
+ border: 0;
+ padding: 0.5em;
+ border-radius:2em;
+}
+
+#fb_login, #confirm_button{
+	 border: 0;
+ 	padding: 0.5em;
+ -webkit-border-radius:2em;
+    -moz-border-radius:2em;
+    border-radius:2em;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  background-color:#1B63EE;
+  color:white;
+}
+
+#stake_desc, #ref_mail{
+width:18em;
+}
+
+#congrats{
+width:90%;
+margin-right:auto;
+margin-left:auto;
+font-size:7em;
+text-align:center;
+}
+
+#footer{
+background-color:#0E7DDC;
+border-top:2px solid #17EDB2;
+height:5em;
+margin-top:-5em;
+font-size:1em;	
+padding: 1% 5% 1% 5%;
+z-index:10;
+/*width:110%;
+margin-left:-5%;
+bottom:0;
+position:relative;*/
+}
+#footer #logo{
+	float:left;
+	
+}
+#footer span{
+	float:right;
+	font-size:1em;
+}
+>>>>>>> 056036c8da4b50fe1a67903988cb5d3b722a9aa8
 a,
 a:link,
 a:visited,
