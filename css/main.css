@@ -91,38 +91,38 @@ textarea {
 	margin: 0 auto;
 }*/
 
-.imgholder img{
+/*.imgholder img{
 	width: 100%;
 	//height: auto;
-}
+}*/
 
 .info{
 	height:100%;
-	//background: url("../img/2edit.jpg") center no-repeat;
+	
 }
 
 .chooseGoal{
 	height:100%;
 	background-color:#F49B2E;
-	//background: url("../img/1edit.jpg") center no-repeat;
+	
 }
 
 .logFace{
 	height:100%;
 	background-color:#438DF3;
-	//background: url("../img/3edit.jpg") center no-repeat;
+	
 }
 
 .setStake{
 	height:100%;
 	background-color:#F23939;
-	//background: url("../img/4edit.jpg") center no-repeat;
+	
 }
 
 .chooseReferee{
 	height:100%;
 	background-color:#309D57;
-	//background: url("../img/5edit.jpg") center no-repeat;
+	
 }
 
 .congrats{
@@ -148,6 +148,10 @@ textarea {
     margin-left: auto;
 }
 
+.header{
+	font-size:3em;	
+}
+
 
 a,
 a:link,
@@ -159,18 +163,9 @@ a:active {
     font-weight: normal;
 }
 
-#exercise{
-	border-radius:5em;
-	border:none;
-	margin:0.5em;
-	background-color:#CC5DE8;
-	color:white;
-	height:2em;	
-};
 
-#goal_desc{
-	max-heigh: 1em;
-}
+
+
 
 /* ==========================================================================
    Media Queries
@@ -178,7 +173,7 @@ a:active {
 
 @media only screen and (max-width: 480px) {
 body{
-	font-size: 5em;
+	/*font-size: 5em;*/
 }
 
 .panel{
@@ -189,32 +184,18 @@ body{
 
 @media only screen and (min-width: 481px) {
 body{
-	font-size: 6em;
+	/*font-size: 6em;*/
 }
 
 }
 
 @media only screen and (min-width: 768px) {
 body{
-	font-size: 1em;
+	/*font-size: 1em;*/
 }
 
 }
 
-
-.intro{
-	font-size: 0.2em;
-}
-
-.artistdesc{
-	font-size: 0.15em;
-	margin: 10px 0;
-}
-
-
-.info{
-	font-size: 0.4em;
-}
 
 /* ==========================================================================
    Helper classes

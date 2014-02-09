@@ -18,7 +18,7 @@
          	
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="js/jquery.js"></script>
-        <script src="js/jquery.datetimepicker.js"></script>
+        
         <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
         <!--<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>-->
         <script src="js/jquery.datetimepicker.js"></script>
@@ -64,14 +64,16 @@
 			<span class="header">Set your stake</span>
 			<div class="content">
 				<p> <h1> I stake ...</h1>  </p>
-				<select id="stake_desc" >
+				<select id="stake_type" >
                     	<option value="facebookpost">One facebook post</option>
                       <option value="postphoto" selected disabled>Post a horrible picture on Facebook</option>
                       <option value="money" selected disabled>Give us a fiver!</option>
                       <option value="reward" selected disabled>Get a discount in your gym membership!</option> 
                       <option value="null" selected disabled>Choose your stake</option>
-				</select>
-
+				</select><br>
+				
+                <input type="text" id="stake_desc" value="i.e. I am a pussy!"><br>
+				
 					<p> If I don't achieve my goal.... my friends will know! </p>
 
 
