@@ -14,13 +14,18 @@ function logIn(){
 	       console.log(response);
 	       uid = response["id"];
 	       accessToken =   FB.getAuthResponse()['accessToken'];
-	     });
+	     }, {scope: 'publish_actions'});
 	   } else {
 	     console.log('User cancelled login or did not fully authorize.');
 	   }
 	});
 }
 
+function scroll(elem){
+	$('html, body').animate({
+        scrollTop: $(elem).offset().top
+    }, 2000);
+}
 
 $(window).load(function() {
 	$("#fb_login").click(function(){
@@ -36,11 +41,9 @@ $(window).load(function() {
 		var refemail = $("#ref_mail").val();
 		
 		$.ajax({
-	      url : "create_achievment",
+	      url : "achiever/create_achievment",
 	      type : "POST",
-	      data : {"user" : { "fb_id" : uid, "fb_token" : accessToken }, "achievment" : {"referee_email" : refemail}, "goal" : {"goal_type" : goaltype, "goal_str" : goalstr, "goal_date" : goaldate}, "stake" : {"stake_type" : staketype, "stake_str" : stakedesc} },
-	      success: CALL_METHOD,
-	      error: CALL_ON_ERROR
+	      data : {"user" : { "fb_id" : uid, "fb_token" : accessToken }, "achievment" : {"referee_email" : refemail}, "goal" : {"goal_type" : goaltype, "goal_str" : goalstr, "goal_date" : goaldate}, "stake" : {"stake_type" : staketype, "stake_str" : stakedesc} }
 	    });
 		
 	})
@@ -86,7 +89,17 @@ $(window).load(function() {
 		$(".nextButton").css("color","#636363");
 		$(".nextButton").css("opacity","0.4");
 		$(".buttonWrapper").css("margin-left","-7.5em");
-		});
+	});
+	
+	
+	$(".nextButton").click(function(){
+		var id = $(this).attr("id");
+		
+		if(id == "intronext"){
+			scroll(".chooseGoal");
+		}
+		
+	})
 	
 	
 	
