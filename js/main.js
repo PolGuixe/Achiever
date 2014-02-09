@@ -54,10 +54,12 @@ $(window).load(function() {
 		if(type == "exercise"){
 			$("#goal_extra").show();
 			$("#goal_desc_label").text("How many times?");
+			$("#goal_desc").val("i.e 3 times");
 			$("#goal_time_label").text("By when?");
 		}else if (type == "wakeup"){
 			$("#goal_extra").show();
 			$("#goal_desc_label").text("What for?");
+			$("#goal_desc").val("i.e for a lecture");
 			$("#goal_time_label").text("By when?");
 		}else{
 			$("#goal_extra").hide();
