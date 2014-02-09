@@ -54,7 +54,7 @@
            <div class="contentWrapper">        
            </div><!--contentWrapper-->
            <div class="buttonWrapper"> 
-           <input type="button" class="introButton" id="intronext" value="Set your GOAL!"> 
+           <input type="button" class="nextButton" id="intronext" value="Set your GOAL!"> 
 
            </div>      
 		</div>
@@ -161,7 +161,7 @@
    <span>Be who you want to be</span>
    </div><!--logo-->
 
-<span>Check out our<a href="http://behaviouralinsights.wordpress.com/" >blog! </a></span>
+<span>Check out our<a href="http://behaviouralinsights.wordpress.com/" > blog! </a></span>
 </div><!--footer-->
 
 
