@@ -135,6 +135,7 @@ $(window).load(function() {
 	
 	$(".nextButton").click(function(){
 		var id = $(this).attr("id");
+		console.log("clicked next button "+id);
 		
 		if(id == "intronext"){
 			scroll(".intro", ".chooseGoal");
@@ -154,6 +155,28 @@ $(window).load(function() {
 		
 	})
 	
+	
+	$("#introButton").click(function(){
+		console.log("clicked intro button");
+		var id = $(this).attr("id");
+		
+		if(id == "introButton"){
+			scroll(".intro", ".chooseGoal");
+		}else if (id == "chooseGoalnext"){
+			var goaltype = $("#goal_type").val();
+			var goalstr = $("#goal_desc").val();
+			var goaldate = $("#goal_time").val();
+			var next = (uid == null) ? ".logFace" : ".setStake";
+			if (goaltype != "null" && goalstr != "" && goaldate != "") scroll(".chooseGoal", next);
+		}else if (id == "logFacenext"){
+			scroll(".logFace", ".setStake");
+		}else if (id == "setStakenext"){
+			var staketype = $("#stake_type").val();
+			var stakedesc = $("#stake_desc").val();
+			if (staketype == "facebookpost" && stakedesc != "") scroll(".setStake", ".chooseReferee");
+		}
+		
+	})
 	
 	
 	
