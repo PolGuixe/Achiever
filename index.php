@@ -213,7 +213,20 @@
    </div><!--logo-->
 
 
-	<p>Check out our <a href="http://behaviouralinsights.wordpress.com/" >blog! </a></p>
+	<p> 
+       <br> Proudly created by <div class="help">
+            <a onclick='overlay("overlay6")'>   ?</a>
+            <div class="overlay" id="overlay6">
+                <div>
+                    <p>  About Achiever: Achiever is a group formed from applicants for the Entrepreneur first 2014 cohort. The project was designed and programmed for the EF 2014 hackathon and is a non-profit endeavour. The members of achiever are: Pol Guixe Jove, Jesal Rajdev, Neil Hutch, Sophie Dundovic, Bjoern Christian Wolf and Ivars Zubkans</p>
+                </div>
+             </div>
+           </div>  
+       </br>
+       
+<br> Check out our <a href="http://behaviouralinsights.wordpress.com/" >blog! </a> </br>
+
+    </p>
 
 
 </div><!--footer-->
