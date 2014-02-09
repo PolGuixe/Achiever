@@ -46,13 +46,16 @@
                     	<option value="exercise">Exercise</option>
                       <option value="wakeup">Wake up early</option>  
 					</select><br>
-                  
+                    <div id="goal_extra">
+                  	<span id="goal_desc_label"></span><br>
                  		<input type="text" id="goal_desc" value="i.e. 3 days"><br>
-                 
-                   by
+                 		<span id="goal_time_label"></span><br>
+                  
+                   
                  <div class="datepickerContainer">
                             <input type="text" id="goal_time" name="goal_time">
-                 </div><!--datepickerContainer-->  
+                 </div><!--datepickerContainer--> 
+                 </div><!--goalextra -->
 		</div>
 
 	
@@ -73,11 +76,11 @@
                       <option value="reward" selected disabled>Get a discount in your gym membership!</option> 
                       <option value="null" selected disabled>Choose your stake</option>
 				</select><br>
+				<div id="stake_extra">
+                <input type="text" id="stake_desc" value="What do you want to post? i.e. I am rubbish!"><br>
 				
-                <input type="text" id="stake_desc" value="i.e. I am a pussy!"><br>
-				
-					<p> If I don't achieve my goal.... my friends will know! </p>
-
+					<span id="stake_desc_label"> If I don't achieve my goal.... my friends will know! </span>
+				</div><!--stakeextra-->
 
 			</div>
 		</div>
