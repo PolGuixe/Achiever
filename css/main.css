@@ -98,27 +98,21 @@ textarea {
 
 .panel{
 	width: 90%;
-<<<<<<< HEAD
 	padding-right: 5%;
 	padding-left: 5%;
 	height: 100%;
-=======
 	padding: 3% 5% 3% 5% ;
 	height: 90%;
 	position:relative;
 	background-color:#1C8EF0;
->>>>>>> 056036c8da4b50fe1a67903988cb5d3b722a9aa8
 }
 .intro{
 	background-attachment: fixed;
 	background-size: cover;
-<<<<<<< HEAD
 	display: block;
 	background-color:#0E7DDC;
-=======
 	display: block;*/
 	/*background-color:#0E7DDC;*/
->>>>>>> 056036c8da4b50fe1a67903988cb5d3b722a9aa8
 }
 
 .chooseGoal{
@@ -144,7 +138,6 @@ textarea {
 }
 
 .congrats{
-<<<<<<< HEAD
 	background-color:#DCEDFC;
 }
 
@@ -152,7 +145,6 @@ textarea {
     width:700px;
 	margin-right: auto;
     margin-left: auto;
-=======
 	/*background-color:#DCEDFC;
 	color:#0E7DDC;*/
 	border-top:2px solid #17EDB2;
@@ -196,16 +188,12 @@ margin:0.75em;
 	height:250px;
 	float:left;
 	margin:5%;
->>>>>>> 056036c8da4b50fe1a67903988cb5d3b722a9aa8
 }
 
 .header{
 	font-size:3em;	
 }
 
-
-<<<<<<< HEAD
-=======
 select{
 	border-radius:20px;
 	padding:0.5em;
@@ -284,7 +272,7 @@ position:relative;*/
 	float:right;
 	font-size:1em;
 }
->>>>>>> 056036c8da4b50fe1a67903988cb5d3b722a9aa8
+
 a,
 a:link,
 a:visited,
