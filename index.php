@@ -39,12 +39,17 @@
 			<span class="artistname">It is as easy as 1,2,3...</span
 				><p> Choose your goal, set your stake, get going! </p>
 				<p> I want to .... </p>
-
-						<input type="button" name="exercise" id="exercise" value="Exercise 3 times this week"><br> 
-						<input type="button" name="exercise" id="exercise" value="Wake up early ">
-					
+	
+    				<select id="goal_type" >
+                    	<option value="null" selected disabled>Choose your goal</option>
+                    	<option value="exercise">Exercise</option>
+                      <option value="wakeup">Wake up early</option>  
+					</select><br>
+                  
+                 		<input type="text" id="goal_desc" value="i.e. 3 days"><br>
+                 
+                   by
                  <div class="datepickerContainer">
-                            <label for="goal_time">for</label>
                             <input type="text" id="goal_time" name="goal_time">
                  </div><!--datepickerContainer-->  
 		</div>
@@ -55,28 +60,33 @@
 				Login with Facebook
    				<input type="button" name="fb_login" id="fb_login" value="Login"> 
 		</div>
+        
 		<div class="setStake">
-			<span class="artistname">Set your stake</span>
+			<span class="header">Set your stake</span>
 			<div class="content">
 				<p> <h1> I stake ...</h1>  </p>
-				<p>
-				<ul> 
+				<select id="stake_desc" >
+                    	<option value="facebookpost">One facebook post</option>
+                      <option value="postphoto" selected disabled>Post a horrible picture on Facebook</option>
+                      <option value="money" selected disabled>Give us a fiver!</option>
+                      <option value="reward" selected disabled>Get a discount in your gym membership!</option> 
+                      <option value="null" selected disabled>Choose your stake</option>
+				</select>
 
-					<br>One facebook post </br>
-					<br> If I don't achieve my goal.... my friends will know! </br>
+					<p> If I don't achieve my goal.... my friends will know! </p>
 
-					 </ul>
-			</p>
 
 			</div>
 		</div>
-				<div class="chooseReferee">
-			
-			
-				
+		
+        <div class="chooseReferee">
 			<span class="referee">Nominate your referee</span>
 			
-				Select friend from facebook..
+				Select your referee:
+                 
+                 		<input type="text" id="ref_mail" value="i.e. yourbestfriend@gmail.com"><br>
+                  	<input type="button" id="confirm_button" value="Set your goal!">
+                 
 		
 	</div>
 
