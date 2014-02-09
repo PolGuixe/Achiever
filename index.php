@@ -37,6 +37,7 @@
             </div>
            <div style="clear:both"></div>
            
+           <div class="imageBox">
            	<div class="imageWrapper">
            		<img src="img/trophy.jpg">
                   <span>1.Choose your goal</span>
@@ -49,6 +50,7 @@
 					<img src="img/achievement.jpg"> 
                 	<span>3.Achieve your dreams!</span>
                </div> 
+           </div>
            <div class="contentWrapper">        
            </div><!--contentWrapper-->
            <div class="buttonWrapper"> 
@@ -101,9 +103,9 @@
    				<input type="button" name="fb_login" id="fb_login" value="Login"><br>
            </div><!--contentWrapper-->
                 
-              <div class="buttonWrapper">   
+            <!--  <div class="buttonWrapper">   
               <input type="button" class="nextButton" id="logFacenext" value="next"> 
-              </div>
+              </div>-->
 		</div>
         
 		<div class="panel setStake">
@@ -137,15 +139,12 @@
                  
                  			<input type="text" id="ref_mail" value="i.e. yourbestfriend@gmail.com"><br>
                   		<input type="button" id="confirm_button" value="Set your goal!">
-              </div><!--contentWrapper-->    
-              <div class="buttonWrapper">   
-				<input type="button" class="nextButton" id="chooseRefereenext" value="next"> 
-               </div> 
+              </div><!--contentWrapper-->     
 	</div>
 
 
 <div class="panel congrats">
-			<div id="congrats">Congratulations!</div
+			<div id="congrats">CONGRATULATIONS!</div
            ><br/>
 			<div class="contentWrapper">
             You have set your goal<br/>
@@ -153,35 +152,24 @@
 			Now go ACHIEVE<br/>
 			<br/>
 			</div><!--contentWrapper--> 
-<br>
-Check out our <a href="http://behaviouralinsights.wordpress.com/">blog! </a>
-</br>
 
 
 </div>
+<div id="footer">
+<div id="logo">
+   <img src="img/achiever1-5-1000px.png"><br>
+   <span>Be who you want to be</span>
+   </div><!--logo-->
+
+<span>Check out our<a href="http://behaviouralinsights.wordpress.com/" >blog! </a></span>
+</div><!--footer-->
+
+
+
 		
 
 
 <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '1418604408384387',
-          status     : true,
-          xfbml      : true
-        });
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/all.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-
     <script src="js/main.js"></script>
 
     </body>
