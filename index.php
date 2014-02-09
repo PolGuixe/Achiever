@@ -34,7 +34,7 @@
             <div class="header">
                 Achieve your goals<br/>
             </div>
-           <div style="clear:both"></div>
+           
            <div class="contentWrapper">
            	<span>It's as easy as 1, 2, 3,...</span>        
            </div><!--contentWrapper-->
@@ -52,7 +52,7 @@
                 	<span>3.Achieve your dreams!</span>
                </div> 
            </div>
-           
+           <div style="clear:both"></div>
            <div class="help">
            	<a onclick='overlay("overlay1")'>   ?</a>
             <div class="overlay" id="overlay1">
@@ -102,7 +102,7 @@
            </div>  
 
                  <div class="buttonWrapper"> 
-                 <input type="button" class="nextButton" id="chooseGoalnext" value="next"> 
+                 <input type="button" class="nextButton" id="chooseGoalnext" value="Next"> 
                  </div>
 		</div>
 
@@ -170,7 +170,7 @@
            </div> 
                 
            <div class="buttonWrapper"> 
-           <input type="button" class="nextButton"id="setStakenext" value="next"> 
+           <input type="button" class="nextButton"id="setStakenext" value="Next"> 
            </div>
 		</div>
 		
