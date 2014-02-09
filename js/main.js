@@ -45,6 +45,31 @@ $(window).load(function() {
 		
 	})
 	
+	
+	$("#goal_extra").hide();
+	$("#stake_extra").hide();
+	
+	$("#goal_type").change(function(){
+		var type = $(this).val();
+		if(type == "exercise"){
+			$("#goal_extra").show();
+			$("#goal_desc_label").text("How many times?");
+			$("#goal_time_label").text("By when?");
+		}else if (type == "wakeup"){
+			$("#goal_extra").show();
+			$("#goal_desc_label").text("What for?");
+			$("#goal_time_label").text("By when?");
+		}else{
+			$("#goal_extra").hide();
+		}
+	})
+	
+	$("#goal_type").change(function(){
+		$("#stake_extra").show();
+	})
+	
+	
+	
 	FB.getLoginStatus(function(response) {
 	  if (response.status === 'connected') {
 	    uid = response.authResponse.userID;
