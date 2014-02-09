@@ -234,14 +234,35 @@ background-color:#28F360;
 .setStake select{
 background-color:#FB2A2E;
 }
-input[type="text"] {
-            border: 0;
-            padding: 0.5em;
-            border-radius:2em;
+input[type="text"]{
+ border: 0;
+ padding: 0.5em;
+ border-radius:2em;
 }
 
-#stake_desc{
+#fb_login, #confirm_button{
+	 border: 0;
+ 	padding: 0.5em;
+ -webkit-border-radius:2em;
+    -moz-border-radius:2em;
+    border-radius:2em;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  background-color:#1B63EE;
+  color:white;
+}
+
+#stake_desc, #ref_mail{
 width:18em;
+}
+
+#congrats{
+width:90%;
+margin-right:auto;
+margin-left:auto;
+font-size:7em;
+text-align:center;
 }
 a,
 a:link,

@@ -86,7 +86,6 @@
                  </div>
 		</div>
 
-	
 		<div class="panel logFace">
         	<div class="header">
 				<span class="login">Login</span>
@@ -141,7 +140,7 @@
 
 <div class="panel congrats">
 			<div id="congrats">Congratulations!</div
-           <br/>
+           ><br/>
 			<div class="contentWrapper">
             You have set your goal<br/>
 			<br/>
