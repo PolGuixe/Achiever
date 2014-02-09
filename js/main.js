@@ -25,6 +25,15 @@ function logIn(){
 $(window).load(function() {
 	$("#fb_login").click(function(){
 		logIn();
+	});
+	
+	$("#confirm_button").click(function(){
+		var goaltype = $("#goal_type").value();
+		var goalstr = $("#goal_desc").value();
+		var goaldate = $("#goal_date").value();
+		var staketype = $("#stake_type").value();
+		var stakedesc = $("#stake_desc").value();
+		var refemail = $("#ref_mail").value();
 	})
 	
 	FB.getLoginStatus(function(response) {
