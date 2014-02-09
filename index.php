@@ -147,9 +147,8 @@
 
 
 <div class="panel congrats">
-			<div id="congrats">CONGRATULATIONS!</div
-           ><br/>
-			<div class="contentWrapper">
+			<div id="congrats">CONGRATULATIONS!</div>
+            <div class="contentWrapper">
             You have set your goal<br/>
 			<br/>
 			Now go ACHIEVE<br/>
@@ -164,7 +163,10 @@
    <span>Be who you want to be</span>
    </div><!--logo-->
 
-<span>Check out our<a href="http://behaviouralinsights.wordpress.com/" > blog! </a></span>
+
+	<p>Check out our <a href="http://behaviouralinsights.wordpress.com/" >blog! </a></p>
+
+
 </div><!--footer-->
 
 
