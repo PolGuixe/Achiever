@@ -175,7 +175,7 @@ margin:0.75em;
 	width:250px;
 	height:250px;
 	float:left;
-	margin:5%;
+	margin:25px;
 }
 
 .imageWrapper img{
@@ -300,7 +300,10 @@ a:active {
 }
 
 
-
+.imageBox{
+	width: 950px;
+	margin: 0 auto;
+}
 
 
 /* ==========================================================================
