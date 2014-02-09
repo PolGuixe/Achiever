@@ -37,10 +37,11 @@
 					<!--<br> Making the latest discoveries in behavioural science work for you </br> -->
 				</div>
                 <div style="clear:both"></div>
+                </div>
                 <div class="buttonWrapper"> 
               			<input type="button" class="nextButton" id="intronext" value="Set your GOAL!"> 
                 </div>
-               </div>
+               
 		</div>
         
 		<div class="panel chooseGoal">
