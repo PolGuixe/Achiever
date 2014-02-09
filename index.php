@@ -36,7 +36,7 @@
             </div>
            <div style="clear:both"></div>
            <div class="contentWrapper">
-           	<span>Is as easy as 1, 2, 3,...</span>        
+           	<span>It's as easy as 1, 2, 3,...</span>        
            </div><!--contentWrapper-->
            <div class="imageBox">
            	<div class="imageWrapper">
@@ -54,7 +54,7 @@
            </div>
            
            <div class="help">
-           	<a href='#' onclick='overlay()'>   ?</a>
+           	<a onclick='overlay()'>   ?</a>
             <div id="overlay">
                 <div>
                 	<p>Achiever helps you to commit to your goals fully and overcome behavioural inertia. You tell us what you want to do and we use your social network to actually make you do it. Check out our blog for more info about the science behind it <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
@@ -63,7 +63,7 @@
            </div>  
            
            <div class="buttonWrapper"> 
-           <input type="button" class="nextButton" id="intronext" value="Set your GOAL!"> 
+           <input type="button" id="introButton" id="intronext" value="Set your GOAL!"> 
            </div>
                
 		</div>
@@ -95,7 +95,7 @@
                  </div><!--contentWrapper-->
 
            <div class="help">
-            <a href='#' onclick='overlay()'>   ?</a>
+            <a onclick='overlay()'>   ?</a>
             <div id="overlay">
                 <div>
                     <p>To make the best use of Achiever. The clearer the goals are, the more you will achieve. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
@@ -117,6 +117,12 @@
         	<div class="header">
 				<span class="login">Login</span>
            </div>
+           <div class="imageBox">
+           	
+           		<img src="img/fac1.png">
+                  
+				
+                </div>
            <div class="contentWrapper">      
 				Login with Facebook
    				<input type="button" name="fb_login" id="fb_login" value="Login"><br>
