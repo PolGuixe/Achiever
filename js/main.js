@@ -118,13 +118,11 @@ $(window).load(function() {
 		$(".nextButton").css("width","18em");
 		$(".nextButton").css("height","4em");
 		$(".nextButton").css("color","white");
-		$(".nextButton").css("opacity","1");
 		$(".buttonWrapper").css("margin-left","-9em");
 	},function(){
 		$(".nextButton").css("width","15em");
 		$(".nextButton").css("height","3em");
 		$(".nextButton").css("color","#636363");
-		$(".nextButton").css("opacity","0.4");
 		$(".buttonWrapper").css("margin-left","-7.5em");
 	});
 	
