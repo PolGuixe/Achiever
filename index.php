@@ -44,7 +44,7 @@
 				</div>
                <div class="imageWrapper">
 					<img src="img/social.jpg">
-                  <span>2.Set your punishment</span>
+                  <span>2.Set your stake</span>
                </div>
 				<div class="imageWrapper">
 					<img src="img/achievement.jpg"> 
@@ -55,15 +55,16 @@
            </div><!--contentWrapper-->
            <div class="buttonWrapper"> 
            <input type="button" class="nextButton" id="intronext" value="Set your GOAL!"> 
+
            </div>      
 		</div>
         
 		<div class="panel chooseGoal">
 			<div class="header">
-            It is as easy as 1,2,3...
+            <span> Let's get started </span> 
             </div>
              <div class="contentWrapper"> 
-				<p> Choose your goal, set your stake, get going! </p>
+				<p>  </p>
 				<span>I want to ....
 					<!--<div class="selectWrapper">-->
     				<select id="goal_type" >
@@ -87,6 +88,11 @@
                  <input type="button" class="nextButton" id="chooseGoalnext" value="next"> 
                  </div>
 		</div>
+
+
+        
+
+
 
 		<div class="panel logFace">
         	<div class="header">
@@ -146,6 +152,7 @@
 			<br/>
 			</div><!--contentWrapper--> 
 
+
 </div>
 <div id="footer">
 <div id="logo">
@@ -153,7 +160,10 @@
    <span>Be who you want to be</span>
    </div><!--logo-->
 
+
 	<p>Check out our <a href="http://behaviouralinsights.wordpress.com/" >blog! </a></p>
+
+
 </div><!--footer-->
 
 
@@ -162,25 +172,6 @@
 
 
 <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '1418604408384387',
-          status     : true,
-          xfbml      : true
-        });
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/all.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-
     <script src="js/main.js"></script>
 
     </body>
