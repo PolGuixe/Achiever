@@ -21,6 +21,8 @@ $( document ).ready(function() {
 		logIn();
 	})
 	
-	$('#goal_time').datetimepicker();
+	$('#goal_time').datetimepicker({
+		format: 'Y/m/d H:i:s'
+	});
 
 });
