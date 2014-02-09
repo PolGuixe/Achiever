@@ -141,17 +141,6 @@
 	           </div>  
 		</div>
 
-<<<<<<< HEAD
-=======
-        <div class="help">
-            <a  onclick='overlay()'>   ?</a>
-            <div id="overlay">
-                <div>
-                    <p>If you fail to achieve your goals, we will let your Facebook friends know. Please give us permission to do this. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
-                </div>
-             </div>
-           </div>  
->>>>>>> fde9a8b3a40419fcc9dcebae73f69f291cd09e6b
         
 		<div class="panel setStake">
 			<div class="header">Set your stake</div>
@@ -173,13 +162,8 @@
 			</div><!--contentWrapper-->
 
             <div class="help">
-<<<<<<< HEAD
             <a onclick='overlay("overlay4")'>   ?</a>
             <div class="overlay" id="overlay4">
-=======
-            <a  onclick='overlay()'>   ?</a>
-            <div id="overlay">
->>>>>>> fde9a8b3a40419fcc9dcebae73f69f291cd09e6b
                 <div>
                     <p>In order to motivate you, there will be something at stake if you do not achieve your goal. Please select your motivator. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
                 </div>
@@ -209,17 +193,6 @@
 	           </div> 
 	</div>
 
-<<<<<<< HEAD
-=======
-<div class="help">
-            <a  onclick='overlay()'>   ?</a>
-            <div id="overlay">
-                <div>
-                    <p>Someone will have to check on your progress, to make sure you really do what you promise. Select this person carefully to be independent and fair, your social reputation might be at stake. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
-                </div>
-             </div>
-           </div> 
->>>>>>> fde9a8b3a40419fcc9dcebae73f69f291cd09e6b
 
 <div class="panel congrats">
 			<div id="congrats">CONGRATULATIONS!</div>
