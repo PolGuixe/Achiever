@@ -27,6 +27,9 @@
     </head>
     <body>
 		<div class="panel intro">
+        	<div id="logo">
+            	<img src="img/achiever1-5-1000px.png"> 
+            </div><!--logo-->
 				<div class="header">
 					Achieve your goals<br/>
 					Be who you want to be<br/>
@@ -38,7 +41,7 @@
 			<div class="header">
             It is as easy as 1,2,3...
             </div>
-				><p> Choose your goal, set your stake, get going! </p>
+				<p> Choose your goal, set your stake, get going! </p>
 				<p> I want to .... </p>
 	
     				<select id="goal_type" >
@@ -48,13 +51,13 @@
 					</select><br>
                     <div id="goal_extra">
                   	<span id="goal_desc_label"></span><br>
-                 		<input type="text" id="goal_desc" value="i.e. 3 days"><br>
+                 		<input type="text" id="goal_desc" value="i.e. 3 times"><br>
                  		<span id="goal_time_label"></span><br>
                   
                    
-                 <div class="datepickerContainer">
+                 		<div class="datepickerContainer">
                             <input type="text" id="goal_time" name="goal_time">
-                 </div><!--datepickerContainer--> 
+                 		</div><!--datepickerContainer--> 
                  </div><!--goalextra -->
 		</div>
 
