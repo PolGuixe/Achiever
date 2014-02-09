@@ -34,7 +34,7 @@
             <div class="header">
                 Achieve your goals<br/>
             </div>
-           <div style="clear:both"></div>
+           
            <div class="contentWrapper">
            	<span>It's as easy as 1, 2, 3,...</span>        
            </div><!--contentWrapper-->
@@ -52,7 +52,7 @@
                 	<span>3.Achieve your dreams!</span>
                </div> 
            </div>
-           
+           <div style="clear:both"></div>
            <div class="help">
            	<a onclick='overlay("overlay1")'>   ?</a>
             <div class="overlay" id="overlay1">
@@ -63,7 +63,7 @@
            </div>  
            
            <div class="buttonWrapper"> 
-           <input type="button" id="introButton" id="intronext" value="Set your GOAL!"> 
+           <input type="button" id="introButton" value="Set your GOAL!"> 
            </div>
                
 		</div>
@@ -73,15 +73,13 @@
             <span> Let's get started </span> 
             </div>
              <div class="contentWrapper"> 
-				<p>  </p>
 				<span>I want to ....
-					<!--<div class="selectWrapper">-->
     				<select id="goal_type" >
                     	<option value="null" selected disabled>Choose my goal</option>
                     	<option value="exercise">Exercise</option>
                       <option value="wakeup">Wake up early</option>  
-					</select></span>
-               <!--   </div> --><br>
+					</select></span><br>
+               
                     <div id="goal_extra">
                   	<span id="goal_desc_label"></span><br>
                  		<input type="text" id="goal_desc" value="i.e. 3 times"><br>
@@ -104,7 +102,7 @@
            </div>  
 
                  <div class="buttonWrapper"> 
-                 <input type="button" class="nextButton" id="chooseGoalnext" value="next"> 
+                 <input type="button" class="nextButton" id="chooseGoalnext" value="Next"> 
                  </div>
 		</div>
 
@@ -172,7 +170,7 @@
            </div> 
                 
            <div class="buttonWrapper"> 
-           <input type="button" class="nextButton"id="setStakenext" value="next"> 
+           <input type="button" class="nextButton"id="setStakenext" value="Next"> 
            </div>
 		</div>
 		
