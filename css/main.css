@@ -133,8 +133,8 @@ textarea {
 }
 
 .congrats{
-	/*background-color:#DCEDFC;
-	color:#0E7DDC;*/
+	background-color:white;
+	color:#1C8EF0;
 	
 	z-index:-1;
 }
