@@ -96,11 +96,13 @@ textarea {
 	//height: auto;
 }*/
 
-.intro{
+.panel{
 	width: 90%;
 	padding-right: 5%;
 	padding-left: 5%;
 	height: 100%;
+}
+.intro{
 	background-attachment: fixed;
 	background-size: cover;
 	display: block;
@@ -108,31 +110,28 @@ textarea {
 }
 
 .chooseGoal{
-	height:100%;
+	
 	background-color:#1C8EF0;
 	
 }
 
 .logFace{
-	height:100%;
+	
 	background-color:#3F9FF2;
 	
 }
 
 .setStake{
-	height:100%;
 	background-color:#64B1F4;
 	
 }
 
 .chooseReferee{
-	height:100%;
 	background-color:#8CC5F6;
 	
 }
 
 .congrats{
-	height:100%;
 	background-color:#DCEDFC;
 }
 
