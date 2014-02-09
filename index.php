@@ -28,7 +28,7 @@
     <body>
 		<div class="panel intro">
             <div id="logo">
-                <img src="img/achiever1-5-1000px.png"><br>
+                <img src="http://jsr35.host.cs.st-andrews.ac.uk/EF/img/achiever1-5-1000px.png"><br>
             <span>Be who you want to be</span>
             </div><!--logo-->
             <div class="header">
@@ -40,15 +40,15 @@
            </div><!--contentWrapper-->
            <div class="imageBox">
            	<div class="imageWrapper">
-           		<img src="img/trophy.jpg">
+           		<img src="http://jsr35.host.cs.st-andrews.ac.uk/EF/img/trophy.jpg">
                   <span>1.Choose your goal</span>
 				</div>
                <div class="imageWrapper">
-					<img src="img/social.jpg">
+					<img src="http://jsr35.host.cs.st-andrews.ac.uk/EF/img/social.jpg">
                   <span>2.Set your stake</span>
                </div>
 				<div class="imageWrapper">
-					<img src="img/achievement.jpg"> 
+					<img src="http://jsr35.host.cs.st-andrews.ac.uk/EF/img/achievement.jpg"> 
                 	<span>3.Achieve your dreams!</span>
                </div> 
            </div>
@@ -117,7 +117,7 @@
            </div>
            <div class="imageBox" style="width: 400px;">
            	
-           		<img src="img/fac2.png">
+           		<img src="http://jsr35.host.cs.st-andrews.ac.uk/EF/img/fac2.png">
                   
 				
                 </div>
@@ -206,7 +206,7 @@
 </div>
 <div id="footer">
 <div id="logo">
-   <img src="img/achiever1-5-1000px.png"><br>
+   <img src="http://jsr35.host.cs.st-andrews.ac.uk/EF/img/achiever1-5-1000px.png"><br>
    <span>Be who you want to be</span>
    </div><!--logo-->
 
