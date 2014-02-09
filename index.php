@@ -33,10 +33,11 @@
             </div><!--logo-->
             <div class="header">
                 Achieve your goals<br/>
-                <!--<br> Making the latest discoveries in behavioural science work for you </br> -->
             </div>
            <div style="clear:both"></div>
-           
+           <div class="contentWrapper">
+           	<span>Is as easy as 1, 2, 3,...</span>        
+           </div><!--contentWrapper-->
            <div class="imageBox">
            	<div class="imageWrapper">
            		<img src="img/trophy.jpg">
@@ -51,8 +52,7 @@
                 	<span>3.Achieve your dreams!</span>
                </div> 
            </div>
-           <div class="contentWrapper">        
-           </div><!--contentWrapper-->
+           
            <div class="help">
            	<a href='#' onclick='overlay()'>   ?</a>
             <div id="overlay">
