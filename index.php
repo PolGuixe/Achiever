@@ -63,7 +63,7 @@
            </div>  
            
            <div class="buttonWrapper"> 
-           <input type="button" id="introButton" id="intronext" value="Set your GOAL!"> 
+           <input type="button" id="introButton" value="Set your GOAL!"> 
            </div>
                
 		</div>
@@ -73,15 +73,13 @@
             <span> Let's get started </span> 
             </div>
              <div class="contentWrapper"> 
-				<p>  </p>
 				<span>I want to ....
-					<!--<div class="selectWrapper">-->
     				<select id="goal_type" >
                     	<option value="null" selected disabled>Choose my goal</option>
                     	<option value="exercise">Exercise</option>
                       <option value="wakeup">Wake up early</option>  
-					</select></span>
-               <!--   </div> --><br>
+					</select></span><br>
+               
                     <div id="goal_extra">
                   	<span id="goal_desc_label"></span><br>
                  		<input type="text" id="goal_desc" value="i.e. 3 times"><br>
