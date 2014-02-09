@@ -37,8 +37,8 @@ function isValidEmailAddress(emailAddress) {
     return pattern.test(emailAddress);
 };
 
-function overlay() {
-	el = document.getElementById("overlay");
+function overlay(elem) {
+	el = document.getElementById(elem);
 	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
 }
 

@@ -54,8 +54,8 @@
            </div>
            
            <div class="help">
-           	<a onclick='overlay()'>   ?</a>
-            <div id="overlay">
+           	<a onclick='overlay("overlay1")'>   ?</a>
+            <div class="overlay" id="overlay1">
                 <div>
                 	<p>Achiever helps you to commit to your goals fully and overcome behavioural inertia. You tell us what you want to do and we use your social network to actually make you do it. Check out our blog for more info about the science behind it <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
                 </div>
@@ -95,8 +95,8 @@
                  </div><!--contentWrapper-->
 
            <div class="help">
-            <a onclick='overlay()'>   ?</a>
-            <div id="overlay">
+            <a onclick='overlay("overlay2")'>   ?</a>
+            <div class="overlay" id="overlay2">
                 <div>
                     <p>To make the best use of Achiever. The clearer the goals are, the more you will achieve. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
                 </div>
@@ -131,16 +131,16 @@
             <!--  <div class="buttonWrapper">   
               <input type="button" class="nextButton" id="logFacenext" value="next"> 
               </div>-->
+	        <div class="help">
+	            <a onclick='overlay("overlay3")'>   ?</a>
+	            <div class="overlay" id="overlay3">
+	                <div>
+	                    <p>If you fail to achieve your goals, we will let your Facebook friends know. Please give us permission to do this. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
+	                </div>
+	             </div>
+	           </div>  
 		</div>
 
-        <div class="help">
-            <a href='#' onclick='overlay()'>   ?</a>
-            <div id="overlay">
-                <div>
-                    <p>If you fail to achieve your goals, we will let your Facebook friends know. Please give us permission to do this. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
-                </div>
-             </div>
-           </div>  
         
 		<div class="panel setStake">
 			<div class="header">Set your stake</div>
@@ -162,8 +162,8 @@
 			</div><!--contentWrapper-->
 
             <div class="help">
-            <a href='#' onclick='overlay()'>   ?</a>
-            <div id="overlay">
+            <a onclick='overlay("overlay4")'>   ?</a>
+            <div class="overlay" id="overlay4">
                 <div>
                     <p>In order to motivate you, there will be something at stake if you do not achieve your goal. Please select your motivator. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
                 </div>
@@ -183,16 +183,16 @@
                  			<input type="text" id="ref_mail" value="i.e. yourbestfriend@gmail.com"><br>
                   		<input type="button" id="confirm_button" value="Set your goal!">
               </div><!--contentWrapper-->     
+	<div class="help">
+	            <a onclick='overlay("overlay5")'>   ?</a>
+	            <div class="overlay" id="overlay5">
+	                <div>
+	                    <p>Someone will have to check on your progress, to make sure you really do what you promise. Select this person carefully to be independent and fair, your social reputation might be at stake. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
+	                </div>
+	             </div>
+	           </div> 
 	</div>
 
-<div class="help">
-            <a href='#' onclick='overlay()'>   ?</a>
-            <div id="overlay">
-                <div>
-                    <p>Someone will have to check on your progress, to make sure you really do what you promise. Select this person carefully to be independent and fair, your social reputation might be at stake. Check out our blog for more info about the science behind achiever <a href="http://behaviouralinsights.wordpress.com/">here </a> </p>
-                </div>
-             </div>
-           </div> 
 
 <div class="panel congrats">
 			<div id="congrats">CONGRATULATIONS!</div>
