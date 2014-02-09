@@ -1,7 +1,7 @@
 //globals
 var uid = null;
 var accessToken = null;
-var allvis = true;
+var allvis = false;
 
 function logOut(){
 	
