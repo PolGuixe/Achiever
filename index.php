@@ -36,7 +36,7 @@
             </div>
            <div style="clear:both"></div>
            <div class="contentWrapper">
-           	<span>Is as easy as 1, 2, 3,...</span>        
+           	<span>It's as easy as 1, 2, 3,...</span>        
            </div><!--contentWrapper-->
            <div class="imageBox">
            	<div class="imageWrapper">
@@ -63,7 +63,7 @@
            </div>  
            
            <div class="buttonWrapper"> 
-           <input type="button" class="nextButton" id="intronext" value="Set your GOAL!"> 
+           <input type="button" id="introButton" id="intronext" value="Set your GOAL!"> 
            </div>
                
 		</div>
@@ -117,6 +117,12 @@
         	<div class="header">
 				<span class="login">Login</span>
            </div>
+           <div class="imageBox">
+           	
+           		<img src="img/fac1.png">
+                  
+				
+                </div>
            <div class="contentWrapper">      
 				Login with Facebook
    				<input type="button" name="fb_login" id="fb_login" value="Login"><br>

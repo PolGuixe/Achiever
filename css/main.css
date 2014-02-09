@@ -204,6 +204,10 @@ margin:0.75em;
 	font-size:1.25em;
 }
 
+logFace imageBox img{
+width:250px;
+height:250px;
+}
 .buttonWrapper{
 	/*top:88.5%;*/
 	left:50%;
@@ -211,7 +215,6 @@ margin:0.75em;
 	position: absolute;
 	bottom: 0px;
 }
-
 
 
 .nextButton{
@@ -224,8 +227,9 @@ margin:0.75em;
 	opacity:0.5;
 }
 
+
 .help{
-bottom:0em;
+bottom:1em;
 left:90%;
 
 position: absolute;
@@ -297,7 +301,7 @@ input[type="text"]{
  border-radius:2em;
 }
 
-#fb_login, #confirm_button{
+#fb_login, #confirm_button, #introButton{
 	 border: 0;
  	padding: 0.5em;
  -webkit-border-radius:2em;
@@ -310,6 +314,12 @@ input[type="text"]{
   color:white;
 }
 
+#introButton{
+background-color:#28F360;
+width:15em;
+	height:3em;
+	margin-bottom:3em;
+}
 #stake_desc, #ref_mail{
 width:18em;
 }
